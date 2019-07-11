@@ -7,6 +7,6 @@ public class TestInheritence {
         System.out.println("Bicyle details are \n"+bicycle.toString());
 
         MountainBicycle mountainBicycle = new MountainBicycle(200,5,25);
-        System.out.println("\n\nMountain bike details are \n"+mountainBicycle.toString());
+        System.out.println("\n\nMountain bicycle details are \n"+mountainBicycle.toString());
     }
 }

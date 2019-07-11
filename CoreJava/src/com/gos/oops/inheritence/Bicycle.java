@@ -2,8 +2,8 @@ package com.gos.oops.inheritence;
 
 public class Bicycle {
 
-    private int speed;
-    private int gear;
+    protected int speed;
+    protected int gear;
 
     public Bicycle() {
     }
