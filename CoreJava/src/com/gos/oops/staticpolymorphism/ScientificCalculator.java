@@ -7,7 +7,7 @@ public class ScientificCalculator extends Calculator {
      * Example to prove that static method overriding is not possible
      */
 /*    public int addition(int a, int b){
-        retutn a+b;
+        return a+b;
     }*/
 
     /**

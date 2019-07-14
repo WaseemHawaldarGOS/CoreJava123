@@ -9,7 +9,7 @@ public class TestStaticPolymorphism {
 
         System.out.println("\n**********************************************************\n\n");
 
-        Calculator scienCalc = new ScientificCalculator();
+        ScientificCalculator scienCalc = new ScientificCalculator();
         System.out.println("return value is "+scienCalc.division(6,3));
 
 
