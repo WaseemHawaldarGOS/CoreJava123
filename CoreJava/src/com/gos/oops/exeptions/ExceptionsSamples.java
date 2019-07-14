@@ -10,14 +10,14 @@ public class ExceptionsSamples {
         /*
         ArithmeticException
          */
-       // ExceptionsSamples.arthmeticExceptionOccurence(0);
-       // ExceptionsSamples.arthmeticExceptionOccurence(100);
+        //ExceptionsSamples.arithmeticExceptionOccurence(0);
+        //ExceptionsSamples.arithmeticExceptionOccurence(100);
 
 
         /*
         NullPointerException
          */
-        //ExceptionsSamples.nullPointerExceptionOccurence(null);
+         //ExceptionsSamples.nullPointerExceptionOccurence(null);
         //ExceptionsSamples.nullPointerExceptionOccurence("Hello");
 
 
@@ -26,7 +26,7 @@ public class ExceptionsSamples {
          */
         int inputArray1[] = {1,2};
         int inputArray2[] = {1,2,3};
-       // ExceptionsSamples.arrayIndexOutOfBoundsExceptionOccurence(inputArray1);
+        //ExceptionsSamples.arrayIndexOutOfBoundsExceptionOccurence(inputArray1);
         //ExceptionsSamples.arrayIndexOutOfBoundsExceptionOccurence(inputArray2);
 
         /*
@@ -35,12 +35,12 @@ public class ExceptionsSamples {
         String validFilePath = "D:\\java_training_workspace\\SampleFiles\\test.txt";
         String invalidFilePath = "D:\\abc\\jjj";
         //ExceptionsSamples.IOExceptionOccurence(validFilePath);
-        ExceptionsSamples.IOExceptionOccurence(invalidFilePath);
+        //ExceptionsSamples.IOExceptionOccurence(invalidFilePath);
 
 
     }
 
-    public static void arthmeticExceptionOccurence(int divideBy){
+    public static void arithmeticExceptionOccurence(int divideBy){
 
         try{
             System.out.println(1000/divideBy);

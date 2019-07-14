@@ -9,17 +9,7 @@ public class TestThread {
         Thread myThread3 = new Thread(sampleThread, "Thread3");
 
         myThread.start();
-
-        if(!myThread.isAlive()){
-            myThread2.start();
-        }
-
-        if(!myThread2.isAlive()){
-            myThread3.start();
-        }
-
-
-
+        myThread2.start();
+        myThread3.start();
     }
-
 }
