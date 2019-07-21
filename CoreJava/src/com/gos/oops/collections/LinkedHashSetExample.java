@@ -2,6 +2,7 @@ package com.gos.oops.collections;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
+import java.util.Set;
 
 
 /*
@@ -12,7 +13,7 @@ public class LinkedHashSetExample {
     public static void main(String args[]) {
         boolean status = false;
         // create a hash set
-        HashSet hs = new LinkedHashSet();
+        LinkedHashSet<String> hs = new LinkedHashSet<String>();
 // add elements to the hash set
 
         hs.add("B");
@@ -20,6 +21,7 @@ public class LinkedHashSetExample {
         hs.add("D");
         hs.add("E");
         hs.add("C");
+
         status = hs.add("F");
         if (status == false) {
             System.out.println("Addition of F failed");
@@ -36,6 +38,6 @@ public class LinkedHashSetExample {
         }
 
 
-        System.out.println(hs);
+        System.out.println(hs.toString());
     }
 }

@@ -3,18 +3,20 @@ package com.gos.oops.collections;
 import java.util.Iterator;
 import java.util.TreeSet;
 
-public class TestComparator {
+public class TestTreeSetComparator {
 
     public static void main(String[] args) {
         // Create a tree set
-        TreeSet ts = new TreeSet(new MyComparator());
+        TreeSet ts = new TreeSet(new TreeSetComparator());
 // Add elements to the tree set
-        ts.add("C");
-        ts.add("A");
-        ts.add("B");
-        ts.add("E");
-        ts.add("F");
-        ts.add("D");
+        ts.add("CA");
+        ts.add("AA");
+        ts.add("AB");
+        ts.add("AD");
+        ts.add("CB");
+        ts.add("DD");
+
+
 // Get an iterator
         Iterator i = ts.iterator();
 // Display elements

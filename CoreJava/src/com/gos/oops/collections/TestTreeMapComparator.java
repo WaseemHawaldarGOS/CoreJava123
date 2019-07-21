@@ -5,19 +5,19 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
-public class TestAccountsComparator {
+public class TestTreeMapComparator {
 
     public static void main(String[] args) {
 
         // Create a tree map
-        TreeMap tm = new TreeMap(new AccountsComparator());
+        TreeMap tm = new TreeMap(new TreeMapComparator());
 
 // Put elements to the map
-        tm.put("John Doe", new Double(3434.34));
-        tm.put("Tom Smith", new Double(123.22));
-        tm.put("Jane Baker", new Double(1378.00));
-        tm.put("Todd Hall", new Double(99.22));
-        tm.put("Ralph Smith", new Double(-19.08));
+        tm.put("John~Doe", 3434.34);
+        tm.put("Tom~Smith", 123.22);
+        tm.put("Jane~Baker", 1378.00);
+        tm.put("Todd~Hall", 99.22);
+        tm.put("Ralph~Smith", -19.08);
 
 // Get a set of the entries
         Set set = tm.entrySet();
@@ -34,10 +34,10 @@ public class TestAccountsComparator {
         System.out.println();
 
 // Deposit 1000 into John Doe's account
-        double balance = ((Double)tm.get("John Doe")).doubleValue();
-        tm.put("John Doe", new Double(balance + 1000));
+        double balance = ((Double)tm.get("John~Doe")).doubleValue();
+        tm.put("John~Doe", new Double(balance + 1000));
         System.out.println("John Doe's new balance: " +
-                tm.get("John Doe"));
+                tm.get("John~Doe"));
 
 
 

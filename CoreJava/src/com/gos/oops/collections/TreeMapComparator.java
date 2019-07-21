@@ -2,9 +2,7 @@ package com.gos.oops.collections;
 
 import java.util.Comparator;
 
-public class AccountsComparator implements Comparator {
-
-
+public class TreeMapComparator implements Comparator {
     @Override
     public int compare(Object o1, Object o2) {
         int i, j, k;
@@ -12,8 +10,8 @@ public class AccountsComparator implements Comparator {
         aStr = (String) o1;
         bStr = (String) o2;
 // find index of beginning of last name
-        i = aStr.lastIndexOf(' ');
-        j = bStr.lastIndexOf(' ');
+        i = aStr.lastIndexOf('~');
+        j = bStr.lastIndexOf('~');
         k = aStr.substring(i).compareTo(bStr.substring(j));
         if(k==0) // last names match, check entire name
             return aStr.compareTo(bStr);
@@ -21,6 +19,5 @@ public class AccountsComparator implements Comparator {
             return k;
     }
 // no need to override equals
-
-}
+    }
 
