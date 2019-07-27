@@ -1,12 +1,13 @@
-package com.gos.oops.collections;
+package com.gos.collections;
 
 import java.util.LinkedList;
+
 
 public class LinkedListExample {
 
     public static void main(String args[]) {
 // create a linked list
-        LinkedList ll = new LinkedList();
+        LinkedList<String> ll = new LinkedList<String>();
 // add elements to the linked list
         ll.add("F");
         ll.add("B");

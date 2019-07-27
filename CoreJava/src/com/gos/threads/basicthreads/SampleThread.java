@@ -1,4 +1,4 @@
-package com.gos.oops.threads;
+package com.gos.threads.basicthreads;
 
 public class SampleThread extends Thread{
 

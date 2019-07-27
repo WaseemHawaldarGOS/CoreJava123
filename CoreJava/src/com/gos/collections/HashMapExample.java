@@ -1,4 +1,4 @@
-package com.gos.oops.collections;
+package com.gos.collections;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -10,17 +10,18 @@ public class HashMapExample {
     public static void main(String args[]) {
 
 // Create a hash map
-        HashMap hm = new HashMap();
+        Map<String, Double> hm = new HashMap<String, Double>();
 
 // Put elements to the map
-        hm.put("John Doe", new Double(3434.34));
-        hm.put("Tom Smith", new Double(123.22));
-        hm.put("Jane Baker", new Double(1378.00));
-        hm.put("Todd Hall", new Double(99.22));
-        hm.put("Ralph Smith", new Double(-19.08));
+        hm.put("John Doe", 3434.12);
+        hm.put("Tom Smith", 123.22);
+        hm.put("Jane Baker", 1378.00);
+        hm.put("Todd Hall", 99.22);
+        hm.put("Ralph Smith", -19.08);
 
 // Get a set of the entries
         Set set = hm.entrySet();
+
 
 // Get an iterator
         Iterator i = set.iterator();
@@ -34,8 +35,8 @@ public class HashMapExample {
         System.out.println();
 
 // Deposit 1000 into John Doe's account
-        double balance = ((Double)hm.get("John Doe")).doubleValue();
-        hm.put("John Doe", new Double(balance + 1000));
+        double balance = (double)hm.get("John Doe");
+        hm.put("John Doe", balance + 1000);
         System.out.println("John Doe's new balance: " +
                 hm.get("John Doe"));
     }

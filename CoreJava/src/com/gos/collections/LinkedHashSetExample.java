@@ -1,39 +1,43 @@
-package com.gos.oops.collections;
+package com.gos.collections;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
 
 /*
-Hashset does not maintain insertion order instead maintains its own default sorted order.
+LinkedHashSet strictly maintains insertion order
  */
-public class HashSetExample {
+public class LinkedHashSetExample {
 
     public static void main(String args[]) {
         boolean status = false;
-// create a hash set
-        HashSet hs = new HashSet();
+        // create a hash set
+        LinkedHashSet<String> hs = new LinkedHashSet<String>();
 // add elements to the hash set
+
         hs.add("B");
         hs.add("A");
         hs.add("D");
         hs.add("E");
         hs.add("C");
+
         status = hs.add("F");
-        if(status == false){
+        if (status == false) {
             System.out.println("Addition of F failed");
-        }else{
+        } else {
             System.out.println("Addition of F succeeded");
         }
 
         //try adding duplicates
         status = hs.add("F");
-        if(status == false){
+        if (status == false) {
             System.out.println("Addition of F failed");
-        }else{
+        } else {
             System.out.println("Addition of F succeeded");
         }
 
 
-        System.out.println(hs);
+        System.out.println(hs.toString());
     }
-
 }
