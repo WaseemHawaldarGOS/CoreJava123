@@ -1,4 +1,4 @@
-package com.gos.oops.collections;
+package com.gos.collections;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
