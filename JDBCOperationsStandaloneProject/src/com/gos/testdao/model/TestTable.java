@@ -1,4 +1,4 @@
-package com.gos.uid.model;
+package com.gos.testdao.model;
 
 public class TestTable {
 

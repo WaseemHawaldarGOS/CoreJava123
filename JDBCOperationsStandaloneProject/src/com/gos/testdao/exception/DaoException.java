@@ -1,4 +1,4 @@
-package com.gos.uid.exception;
+package com.gos.testdao.exception;
 
 public class DaoException extends Exception {
 

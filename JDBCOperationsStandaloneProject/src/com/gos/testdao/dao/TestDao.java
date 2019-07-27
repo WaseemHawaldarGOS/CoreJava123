@@ -1,6 +1,6 @@
-package com.gos.uid.dao;
+package com.gos.testdao.dao;
 
-import com.gos.uid.model.TestTable;
+import com.gos.testdao.model.TestTable;
 
 import java.util.List;
 
