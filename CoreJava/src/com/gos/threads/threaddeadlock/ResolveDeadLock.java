@@ -1,5 +1,10 @@
 package com.gos.threads.threaddeadlock;
 
+/*
+We resolved the dead lock by closing synchronized block of run2
+right after completion of scanner and release it, so that run1 can then take lock of scanner.
+ */
+
 public class ResolveDeadLock {
 
     public static void main(String[] args) {

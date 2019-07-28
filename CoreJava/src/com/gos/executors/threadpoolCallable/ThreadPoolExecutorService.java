@@ -20,7 +20,7 @@ public class ThreadPoolExecutorService {
         //ExecutorService executor = Executors.newFixedThreadPool(2);// takes - 6 seconds
         //ExecutorService executor = Executors.newFixedThreadPool(3);//takes - 4 seconds
         //ExecutorService executor = Executors.newFixedThreadPool(4);//takes - 4 seconds
-        //ExecutorService executor = Executors.newFixedThreadPool(5);//takes - 2 seconds
+        ExecutorService executor = Executors.newFixedThreadPool(5);//takes - 2 seconds
 
 
         /*
@@ -28,7 +28,7 @@ public class ThreadPoolExecutorService {
         Creates a thread pool that creates new threads as needed, but will reuse previously constructed threads when they are available.
         These pools will typically improve the performance of programs that execute many short-lived asynchronous tasks.
          */
-        ExecutorService executor = Executors.newCachedThreadPool();//takes 5 seconds
+        //ExecutorService executor = Executors.newCachedThreadPool();//takes 5 seconds
 
 
         List<Future<String>> resultantList = new ArrayList<Future<String>>();
