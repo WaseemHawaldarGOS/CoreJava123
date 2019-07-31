@@ -70,7 +70,7 @@ public class TestDaoImpl extends BaseDao implements TestDao {
             psmt.setString(4, testTable.getColumn4());
 
             recordsInserted = psmt.executeUpdate();
-            if(recordsInserted != 0){
+            if(recordsInserted > 0){
                 con.commit();
             }
         } catch (DaoException e) {
@@ -111,7 +111,7 @@ public class TestDaoImpl extends BaseDao implements TestDao {
             }else{
                 System.out.println("Connection found successfully");
             }
-            psmt = con.prepareStatement("update test_table set column1 = "+column1 +" , column2 = '"+column2+"'");
+            psmt = con.prepareStatement("update test_table set column2 = '"+column2+"' where column1 = "+column1);
             recordsUpdated = psmt.executeUpdate();
             if(recordsUpdated != 0){
                 con.commit();

@@ -3,6 +3,8 @@ package com.gos.testdao.dao;
 import com.gos.testdao.exception.DaoException;
 import com.gos.testdao.model.TestTable;
 
+import java.util.List;
+
 
 public class TestDatabaseOperations {
 
@@ -13,19 +15,19 @@ public class TestDatabaseOperations {
             /*
              Insert data
              */
-            TestTable testTable = new TestTable();
-            testTable.setColumn1(1);
+/*            TestTable testTable = new TestTable();
+            testTable.setColumn1(2);
             testTable.setColumn2("Raj");
-            testTable.setColumn3(2);
+            testTable.setColumn3(201);
             testTable.setColumn4("col4");
             int count = testDao.insertTestTableData(testTable);
-            System.out.println("Number of records inserted are "+count);
+            System.out.println("Number of records inserted are "+count);*/
 
             /*
              Select data
              */
-/*            List<TestTable> selectedData = testDao.getTestTableData();
-            System.out.println("Data found after doing select is "+selectedData.toString());*/
+            List<TestTable> selectedData = testDao.getTestTableData();
+            System.out.println("Data found after doing select is "+selectedData.toString());
 
 
             /*
