@@ -10,7 +10,8 @@
 </head>
 <body>
 <link rel = "stylesheet" ahref = "cs/Stylesheet.css"/>
-<form action = "/UIDDeliverySystem/admin.action" onsubmit return  = "ValidateContent(this);">
+<H1>WELCOME TO THE UID GENERATION SYSTEM </H1>
+<form action = "/UIDGenerationSystem/admin.action" onsubmit return  = "ValidateContent(this);">
 <table>
 <tr>
 <td>

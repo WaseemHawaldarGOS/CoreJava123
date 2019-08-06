@@ -15,10 +15,10 @@ import com.uid.model.Report;
 
 public class UIDDaoImpl extends BaseDao implements UIDDao {
 
-	private static final String enrolQuery = "insert into enroll(name,contactNo,look) values(?,?,?)";
-	private static final String uidQuery = "select uid from enroll";
-	private static final String adminQuery = "delete from admin where uid = ?";
-	private static final String reportQuery = "select uid,name,contactNo,look from enroll e, admin a where e.uid = a.uid";
+	private static final String enrolQuery = "insert into hr.enroll(enroll_id,name,CONTACT_NO,look) values(uid_seq.nextval, ?,?,?)";
+	private static final String uidQuery = "select uid from hr.enroll";
+	private static final String adminQuery = "delete from hr.admin where uid = ?";
+	private static final String reportQuery = "select uid,name,CONTACT_NO,look from enroll e, admin a where e.uid = a.uid";
 	private static Connection con;
 	
 	public UIDDaoImpl() throws DaoException {
@@ -33,7 +33,7 @@ public class UIDDaoImpl extends BaseDao implements UIDDao {
 			con = getConnection();
 			psmt = con.prepareStatement(enrolQuery);
 			psmt.setString(1, enroll.getName());
-			psmt.setInt(2, enroll.getContactNo());
+			psmt.setLong(2, enroll.getCONTACT_NO());
 			psmt.setString(3, enroll.getLook());
 			psmt.executeUpdate();
 		} catch (SQLException e) {
@@ -102,7 +102,7 @@ public class UIDDaoImpl extends BaseDao implements UIDDao {
 				Report report1 = new Report();
 				report1.setUid(rs.getInt(1));
 				report1.setName(rs.getString(2));
-				report1.setContactNo(rs.getInt(3));
+				report1.setCONTACT_NO(rs.getInt(3));
 				report1.setLook(rs.getString(4));
 				listOfReports.add(report1);
 			}

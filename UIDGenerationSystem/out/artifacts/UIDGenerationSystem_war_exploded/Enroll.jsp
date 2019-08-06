@@ -9,18 +9,9 @@
 </head> 
 <body>
 <link rel = "stylesheet" ahref = "cs/Stylesheet.css"/>
-<form action = "/UIDDeliverySystem/enroll.action" onsubmit return  = "ValidateContent(this);">
+<H1>WELCOME TO THE UID GENERATION SYSTEM </H1>
+<form action = "/UIDGenerationSystem/enroll.action" onsubmit return  = "ValidateContent(this);">
 <table>
-<tr>
-<td>
-UID
-<td/>
-<td>
-<input type = "text" name = "uid"/>
-<td/>
-<tr/>
-<tr>
-
 <td>
 Name
 <td/>
@@ -33,7 +24,7 @@ Name
 Contact No:
 <td/>
 <td>
-<input type = "text" name = "contactNo"/>
+<input type = "text" name = "CONTACT_NO"/>
 <td/>
 <tr/>
 <tr>
@@ -47,7 +38,7 @@ Look
 </table>
 <input type = "submit" value = "Click to enroll"/>
 </form>
-<form action = "/UIDDeliverySystem/HomePage.action" >
+<form action = "/UIDGenerationSystem/HomePage.action" >
 <input type = "submit" value = "Cancel" />
 </form>
 </body>

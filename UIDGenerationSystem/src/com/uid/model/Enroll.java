@@ -10,16 +10,16 @@ public class Enroll implements Comparable<Enroll>, Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 	private String name;
-	private int contactNo;
+	private long CONTACT_NO;
 	private String look;
 	
 	
 	
 
-	public Enroll(String name, int contactNo, String look) {
+	public Enroll(String name, int CONTACT_NO, String look) {
 		super();
 		this.name = name;
-		this.contactNo = contactNo;
+		this.CONTACT_NO = CONTACT_NO;
 		this.look = look;
 	}
 
@@ -39,13 +39,13 @@ public class Enroll implements Comparable<Enroll>, Serializable {
 	}
 
 
-	public int getContactNo() {
-		return contactNo;
+	public long getCONTACT_NO() {
+		return CONTACT_NO;
 	}
 
 
-	public void setContactNo(int contactNo) {
-		this.contactNo = contactNo;
+	public void setCONTACT_NO(long CONTACT_NO) {
+		this.CONTACT_NO = CONTACT_NO;
 	}
 
 
@@ -63,7 +63,7 @@ public class Enroll implements Comparable<Enroll>, Serializable {
 
 	@Override
 	public String toString() {
-		return "Enroll [name=" + name + ", contactNo=" + contactNo + ", look="
+		return "Enroll [name=" + name + ", CONTACT_NO=" + CONTACT_NO + ", look="
 				+ look + "]";
 	}
 

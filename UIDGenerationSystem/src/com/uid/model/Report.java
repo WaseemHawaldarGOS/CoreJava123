@@ -10,7 +10,7 @@ public class Report implements Comparable<Report>, Serializable {
 	private static final long serialVersionUID = 1L;
 	private int uid;
 	private String name;
-	private int contactNo;
+	private int CONTACT_NO;
 	private String look;
 
 	
@@ -18,8 +18,8 @@ public class Report implements Comparable<Report>, Serializable {
 
 	@Override
 	public String toString() {
-		return "Report [uid=" + uid + ", name=" + name + ", contactNo="
-				+ contactNo + ", look=" + look + "]";
+		return "Report [uid=" + uid + ", name=" + name + ", CONTACT_NO="
+				+ CONTACT_NO + ", look=" + look + "]";
 	}
 
 	public int getUid() {
@@ -38,12 +38,12 @@ public class Report implements Comparable<Report>, Serializable {
 		this.name = name;
 	}
 
-	public int getContactNo() {
-		return contactNo;
+	public int getCONTACT_NO() {
+		return CONTACT_NO;
 	}
 
-	public void setContactNo(int contactNo) {
-		this.contactNo = contactNo;
+	public void setCONTACT_NO(int CONTACT_NO) {
+		this.CONTACT_NO = CONTACT_NO;
 	}
 
 	public String getLook() {
@@ -54,11 +54,11 @@ public class Report implements Comparable<Report>, Serializable {
 		this.look = look;
 	}
 
-	public Report(int uid, String name, int contactNo, String look) {
+	public Report(int uid, String name, int CONTACT_NO, String look) {
 		super();
 		this.uid = uid;
 		this.name = name;
-		this.contactNo = contactNo;
+		this.CONTACT_NO = CONTACT_NO;
 		this.look = look;
 	}
 

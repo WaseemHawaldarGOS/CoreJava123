@@ -94,7 +94,7 @@ public class FrontController extends HttpServlet {
 	public Object populateEnroll(HttpServletRequest request, HttpServletResponse response){
 		Enroll e = new Enroll();
 		e.setName(request.getParameter("name"));
-		e.setContactNo(Integer.parseInt(request.getParameter("contactNo")));
+		e.setCONTACT_NO(Long.parseLong(request.getParameter("CONTACT_NO")));
 		e.setLook(request.getParameter("look"));
 		return e;
 		

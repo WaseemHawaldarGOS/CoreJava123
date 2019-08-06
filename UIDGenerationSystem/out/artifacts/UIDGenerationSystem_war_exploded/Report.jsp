@@ -9,6 +9,7 @@
 
 <body>
 <link rel = "stylesheet" ahref = "cs/Stylesheet.css"/>
+<H1>WELCOME TO THE UID GENERATION SYSTEM </H1>
 <table border = "1">
 <tr>
 <td>
@@ -20,10 +21,10 @@ ${requestScope.listOfReports.uid}
 <tr/>
 <tr>
 <td>
-contactNo
+CONTACT_NO
 <td/>
 <td>
-${requestScope.listOfReports.contactNo}
+${requestScope.listOfReports.CONTACT_NO}
 <td/>
 <tr/>
 <tr>
