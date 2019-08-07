@@ -24,12 +24,13 @@ public class UidServiceImpl implements UidService {
 	
 	@Override
 	public Object Enrollment(Enroll enroll) throws ServiceException {
+		Object returnObject = null;
 		try {
-			dao.Enrollment(enroll);
+			returnObject = dao.Enrollment(enroll);
 		} catch (DaoException e) {
 			throw new ServiceException(e.getMessage(),e);
 		}
-		return null;
+		return returnObject;
 	}
 
 	@SuppressWarnings("unchecked")

@@ -15,7 +15,8 @@ import com.uid.model.Report;
 
 public class UIDDaoImpl extends BaseDao implements UIDDao {
 
-	private static final String enrolQuery = "insert into hr.enroll(enroll_id,name,CONTACT_NO,look) values(uid_seq.nextval, ?,?,?)";
+	private static final String enrolQuery = "insert into hr.enroll(enroll_id,name,CONTACT_NO,look) values(?, ?,?,?)";
+	private static final String uidGenerationQuery = "select uid_seq.nextval from dual";
 	private static final String uidQuery = "select uid from hr.enroll";
 	private static final String adminQuery = "delete from hr.admin where uid = ?";
 	private static final String reportQuery = "select uid,name,CONTACT_NO,look from enroll e, admin a where e.uid = a.uid";
@@ -29,12 +30,15 @@ public class UIDDaoImpl extends BaseDao implements UIDDao {
 	@Override
 	public Object Enrollment(Enroll enroll) throws DaoException {
 		PreparedStatement psmt = null;
+		int generatedID = 0;
 		try {
+			generatedID = generateUID();
 			con = getConnection();
 			psmt = con.prepareStatement(enrolQuery);
-			psmt.setString(1, enroll.getName());
-			psmt.setLong(2, enroll.getCONTACT_NO());
-			psmt.setString(3, enroll.getLook());
+			psmt.setInt(1, generatedID);
+			psmt.setString(2, enroll.getName());
+			psmt.setLong(3, enroll.getCONTACT_NO());
+			psmt.setString(4, enroll.getLook());
 			psmt.executeUpdate();
 		} catch (SQLException e) {
 			throw new DaoException(e.getMessage(),e);
@@ -43,7 +47,7 @@ public class UIDDaoImpl extends BaseDao implements UIDDao {
 			releaseResource(null, psmt, con);
 		}
 		
-		return null;
+		return generatedID;
 	}
 
 	@Override
@@ -114,6 +118,28 @@ public class UIDDaoImpl extends BaseDao implements UIDDao {
 			releaseResource(rs, stmt, con);
 		}
 		return listOfReports;
+	}
+
+	@Override
+	public int generateUID() throws DaoException {
+		Statement stmt = null;
+		ResultSet rs = null;
+		con = getConnection();
+		int generatedId = 0;
+		try {
+			stmt = con.createStatement();
+			rs = stmt.executeQuery(uidGenerationQuery);
+			while(rs.next()) {
+				generatedId = rs.getInt(1);
+			}
+		} catch (SQLException e) {
+			throw new DaoException(e.getMessage(),e);
+		}
+		finally{
+			releaseResource(rs, stmt, con);
+		}
+		return generatedId;
+
 	}
 
 }

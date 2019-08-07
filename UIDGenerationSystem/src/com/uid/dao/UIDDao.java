@@ -10,5 +10,6 @@ public interface UIDDao {
 	public Object listOfUIDs() throws DaoException;
 	public Object Administration(Admin admin)throws DaoException;
 	public Object ViewReport()throws DaoException;
+	public int generateUID() throws DaoException;
 
 }

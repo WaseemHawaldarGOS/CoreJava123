@@ -62,8 +62,8 @@ public class FrontController extends HttpServlet {
 		}
 		else if(uri.endsWith("enroll.action")){
 			Enroll enroll = (Enroll) populateEnroll(request,response);
-			service.Enrollment(enroll);
-			request.setAttribute("Msg", "User "+request.getParameter("name")+" has been enrolled successfully!");
+			Object generatedID = service.Enrollment(enroll);
+			request.setAttribute("Msg", "User "+request.getParameter("name")+" has been enrolled successfully! \n unique ID generated is "+(int)generatedID);
 			target = "/HomePage.jsp";
 		}
 		else if(uri.endsWith("admin.action")){
