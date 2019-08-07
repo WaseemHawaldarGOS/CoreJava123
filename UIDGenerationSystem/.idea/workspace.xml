@@ -140,7 +140,8 @@
       <workItem from="1565064424174" duration="1202000" />
       <workItem from="1565065684669" duration="3499000" />
       <workItem from="1565107878924" duration="3413000" />
-      <workItem from="1565152058470" duration="1672000" />
+      <workItem from="1565152058470" duration="4113000" />
+      <workItem from="1565195544331" duration="2407000" />
     </task>
     <servers />
   </component>
@@ -152,8 +153,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/uid/dao/UIDDaoImpl.java</url>
-          <line>34</line>
+          <line>35</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/uid/web/FrontController.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

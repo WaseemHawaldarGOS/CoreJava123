@@ -19,7 +19,8 @@ public class UIDDaoImpl extends BaseDao implements UIDDao {
 	private static final String uidGenerationQuery = "select uid_seq.nextval from dual";
 	private static final String uidQuery = "select uid from hr.enroll";
 	private static final String adminQuery = "delete from hr.admin where uid = ?";
-	private static final String reportQuery = "select uid,name,CONTACT_NO,look from enroll e, admin a where e.uid = a.uid";
+	//private static final String reportQuery = "select uid,name,CONTACT_NO,look from hr.enroll e, hr.admin a where e.uid = a.uid";
+	private static final String reportQuery = "select enroll_id,name,CONTACT_NO,look from hr.enroll";
 	private static Connection con;
 	
 	public UIDDaoImpl() throws DaoException {
@@ -61,7 +62,7 @@ public class UIDDaoImpl extends BaseDao implements UIDDao {
 			 rs = stmt.executeQuery(uidQuery);
 			while(rs.next()){
 				Report report = new Report();
-				report.setUid(rs.getInt(1));
+				report.setEnroll_id(rs.getInt(1));
 				listOfUids.add(report);
 			}
 			
@@ -101,14 +102,14 @@ public class UIDDaoImpl extends BaseDao implements UIDDao {
 		con = getConnection();
 		try {
 			 stmt = con.createStatement();
-			 rs = stmt.executeQuery(uidQuery);
+			 rs = stmt.executeQuery(reportQuery);
 			while(rs.next()){
-				Report report1 = new Report();
-				report1.setUid(rs.getInt(1));
-				report1.setName(rs.getString(2));
-				report1.setCONTACT_NO(rs.getInt(3));
-				report1.setLook(rs.getString(4));
-				listOfReports.add(report1);
+				Report report = new Report();
+				report.setEnroll_id(rs.getInt(1));
+				report.setName(rs.getString(2));
+				report.setCONTACT_NO(rs.getLong(3));
+				report.setLook(rs.getString(4));
+				listOfReports.add(report);
 			}
 			
 		} catch (SQLException e) {

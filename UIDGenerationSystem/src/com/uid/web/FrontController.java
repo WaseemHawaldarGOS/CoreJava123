@@ -79,6 +79,7 @@ public class FrontController extends HttpServlet {
 		else if(uri.endsWith("report.action")){
 			List<Report> listOfReports = (List<Report>) service.ViewReport();
 			request.setAttribute("listOfReports", listOfReports);
+			target = "/Report.jsp";
 		}
 		
 		
@@ -102,7 +103,7 @@ public class FrontController extends HttpServlet {
 	
 	public Object populateUid(HttpServletRequest request, HttpServletResponse response){
 		Report report = new Report();
-		report.setUid(Integer.parseInt(request.getParameter("uid")));
+		report.setEnroll_id(Integer.parseInt(request.getParameter("enroll_id")));
 		return report;
 		
 	}

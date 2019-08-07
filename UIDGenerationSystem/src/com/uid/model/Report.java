@@ -8,26 +8,17 @@ public class Report implements Comparable<Report>, Serializable {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	private int uid;
+	private int enroll_id;
 	private String name;
-	private int CONTACT_NO;
+	private long CONTACT_NO;
 	private String look;
 
-	
-	
-
-	@Override
-	public String toString() {
-		return "Report [uid=" + uid + ", name=" + name + ", CONTACT_NO="
-				+ CONTACT_NO + ", look=" + look + "]";
+	public int getEnroll_id() {
+		return enroll_id;
 	}
 
-	public int getUid() {
-		return uid;
-	}
-
-	public void setUid(int uid) {
-		this.uid = uid;
+	public void setEnroll_id(int enroll_id) {
+		this.enroll_id = enroll_id;
 	}
 
 	public String getName() {
@@ -38,11 +29,11 @@ public class Report implements Comparable<Report>, Serializable {
 		this.name = name;
 	}
 
-	public int getCONTACT_NO() {
+	public long getCONTACT_NO() {
 		return CONTACT_NO;
 	}
 
-	public void setCONTACT_NO(int CONTACT_NO) {
+	public void setCONTACT_NO(long CONTACT_NO) {
 		this.CONTACT_NO = CONTACT_NO;
 	}
 
@@ -53,15 +44,6 @@ public class Report implements Comparable<Report>, Serializable {
 	public void setLook(String look) {
 		this.look = look;
 	}
-
-	public Report(int uid, String name, int CONTACT_NO, String look) {
-		super();
-		this.uid = uid;
-		this.name = name;
-		this.CONTACT_NO = CONTACT_NO;
-		this.look = look;
-	}
-
 
 	public Report() {
 		// TODO Auto-generated constructor stub

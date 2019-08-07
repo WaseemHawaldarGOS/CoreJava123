@@ -24,7 +24,7 @@ ${requestScope.Msg}
 <input type = "submit" value = "Click to Delete Record">
 </form>
 <BR/>
-<form action = "/UIDGenerationSystem/Report_.action">
+<form action = "/UIDGenerationSystem/report.action">
 <input type = "submit" value = "Click to generate Report">
 </form>
 </body>
