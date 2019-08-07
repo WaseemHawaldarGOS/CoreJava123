@@ -53,6 +53,7 @@
   <component name="RunManager">
     <configuration name="UIDGenerationSystem" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.47" ALTERNATIVE_JRE_ENABLED="false" show_console_on_std_err="true" show_console_on_std_out="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/UIDGenerationSystem/HomePage.jsp" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="UIDGenerationSystem:war exploded">
@@ -138,7 +139,8 @@
       <workItem from="1564978527691" duration="2849000" />
       <workItem from="1565064424174" duration="1202000" />
       <workItem from="1565065684669" duration="3499000" />
-      <workItem from="1565107878924" duration="3162000" />
+      <workItem from="1565107878924" duration="3413000" />
+      <workItem from="1565152058470" duration="336000" />
     </task>
     <servers />
   </component>

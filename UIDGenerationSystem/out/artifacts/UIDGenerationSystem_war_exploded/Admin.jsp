@@ -9,7 +9,7 @@
 <script type="text/javascript" src  = js/ValidateAdmin.js></script>
 </head>
 <body>
-<link rel = "stylesheet" ahref = "cs/Stylesheet.css"/>
+<link rel="stylesheet" href="Background.css"/></link>
 <H1>WELCOME TO THE UID GENERATION SYSTEM </H1>
 <form action = "/UIDGenerationSystem/admin.action" onsubmit return  = "ValidateContent(this);">
 <table>

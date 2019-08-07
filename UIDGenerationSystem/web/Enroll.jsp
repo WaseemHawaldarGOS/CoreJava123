@@ -8,7 +8,7 @@
 <script type="text/javascript" src = "js/ValidateEnroll.js"></script>
 </head> 
 <body>
-<link rel = "stylesheet" ahref = "cs/Stylesheet.css"/>
+<link rel="stylesheet" href="Background.css"/></link>
 <H1>WELCOME TO THE UID GENERATION SYSTEM </H1>
 <form action = "/UIDGenerationSystem/enroll.action" onsubmit return  = "ValidateContent(this);">
 <table>

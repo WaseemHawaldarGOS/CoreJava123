@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<link rel = "stylesheet" ahref = "cs/Stylesheet.css"/>
+<link rel="stylesheet" href="Background.css"/></link>
 <H1>WELCOME TO THE UID GENERATION SYSTEM </H1>
 <table border = "1">
 <tr>

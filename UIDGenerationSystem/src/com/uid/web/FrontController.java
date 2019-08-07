@@ -63,7 +63,7 @@ public class FrontController extends HttpServlet {
 		else if(uri.endsWith("enroll.action")){
 			Enroll enroll = (Enroll) populateEnroll(request,response);
 			service.Enrollment(enroll);
-			request.setAttribute("Msg", "user successfully Enrolled");
+			request.setAttribute("Msg", "User "+request.getParameter("name")+" has been enrolled successfully!");
 			target = "/HomePage.jsp";
 		}
 		else if(uri.endsWith("admin.action")){
@@ -72,7 +72,7 @@ public class FrontController extends HttpServlet {
 			String check = request.getParameter("action");
 			if(check.equalsIgnoreCase("YES")){
 			service.Administration(admin);
-			request.setAttribute("Msg", "user successfully deleted");
+			request.setAttribute("Msg", "User successfully deleted");
 			}
 			target = "/HomePage.jsp";
 		}
