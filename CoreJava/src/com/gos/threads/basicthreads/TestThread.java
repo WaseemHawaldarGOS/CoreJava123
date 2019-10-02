@@ -11,6 +11,7 @@ public class TestThread {
         /*
         Thread1 will be executed first bcz it has got high priority.
         All other threads have got default priority of 5.
+        This does not work bcz we get different results each time we run.
          */
         myThread.setPriority(6);
 
