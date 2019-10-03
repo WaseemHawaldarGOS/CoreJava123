@@ -1,8 +1,10 @@
 package com.gos.threads.threaddeadlock;
 
 /*
-This program has race condition or deadlock.
+This program has race condition or deadlock because
+the synchronized blocks of each runnable creates locks on both the objects i.e. Printer and Scanner.
  */
+
 public class ReproduceDeadLock {
 
     public static void main(String[] args) {

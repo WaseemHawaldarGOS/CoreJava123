@@ -39,5 +39,10 @@ public class LinkedHashSetExample {
 
 
         System.out.println(hs.toString());
+
+        System.out.println("Trying to add heterogenous data");
+        //hs.add(100);//this line of code fails
+
+
     }
 }

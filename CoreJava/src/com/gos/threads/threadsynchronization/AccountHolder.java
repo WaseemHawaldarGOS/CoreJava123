@@ -20,7 +20,10 @@ public class AccountHolder implements Runnable{
     }
 
     /*
-    The below synchronized keyword makes only one transaction to be active at a time by creating a lock.
+    To reproduce behavior of amount getting withdrawn is more than the actual balance,
+    remove synchronized keyword from below method.
+    The below synchronized keyword makes only one transaction to be active
+    at a time by creating a lock.
      */
     private synchronized void makeWithdrawal(int withdrawAmount){
         if(account.getBalance() >= withdrawAmount){
@@ -33,7 +36,8 @@ public class AccountHolder implements Runnable{
             account.withdraw(withdrawAmount);
             System.out.println(Thread.currentThread().getName() +" completes the withdrawal of $"+withdrawAmount);
         }else{
-            System.out.println("Not enough in account for "+Thread.currentThread().getName() +" to withdraw "+withdrawAmount + " remaining balance is "+account.getBalance());
+            System.out.println("Not enough in account for "+Thread.currentThread().getName() +
+                    " to withdraw "+withdrawAmount + " remaining balance is "+account.getBalance());
         }
 
     }
