@@ -1,0 +1,205 @@
+***************************************************************************************************
+										PRACTICALS
+***************************************************************************************************
+
+Prerequisites:
+1.	Java8
+2.	Intellij Ultimate
+3.	Maven
+
+Launch intellij, create new project, select maven on LHS.
+groupid - com.boot
+artifactid - das-boot
+click next and click finish.
+
+Go to File->Settings->search for maven using search area.
+Maven home directory - E:\Softwares\apache-maven-3.6.1
+User Settings file - E:\Softwares\apache-maven-3.6.1\conf\settings.xml (check override option)
+local repository - C:\Users\Admin\.m2\repository (check override option)
+
+Select enable auto import if prompted in intellij
+
+Update pom.xml and add spring-boot dependencies and do clean-compile from maven lifecycle.
+
+Add App.java and HomeController.java
+Right click and run App.java
+Go to browser and hit - http://localhost:8080/
+output - Das Boot, reporting for duty!
+
+----------------
+Spring boot dependency management:
+Spring boot downloads dependencies on it's own on the basis of their compatibility with each other.
+We need to specify version only while defining parent entry in pom.xml.
+All other modules does not require version to be specified as it picks from parent.
+
+----------------
+
+Spring boot initializers:
+Web initializer:
+https://start.spring.io/ is a good starting point to get started with web project.
+
+Command line Interface(CLI) initializer:
+By downloading CLI zip file from docs.spring.io, we can run spring from command line using below command:
+>>./spring init --dependencies=web myNewApp
+
+https://github.com/spring-projects/spring-boot/tree/master/spring-boot-samples
+has for lots of sample even integration with cassandra.
+
+----------------
+
+@SpringBootApplication internally calls 3 more annotations as mentioned below:
+@SpringBootConfiguration
+@EnableAutoConfiguration
+@ComponentScan
+
+To view this press ctrl+click on @SpringBootApplication in intellij.
+
+
+*********************************************************************************************************
+							Spring web application
+*********************************************************************************************************
+
+Clone the source code from https://github.com/dlbunker/ps-spring-boot-resources
+
+Open the same das-boot project created above and copy the contents of spring-boot-resources/client/www into it i.e. Create src/main/resources/public and copy the contents of www into public folder.
+
+Restart das-boot application i.e. run App.java and hit below urls:
+http://localhost:8080
+http://localhost:8080/index.html
+
+You may also make changes to home.html and add additional header like <h1>Can I see this</h1> and just refresh browser without restarting das-boot application, we should be able to see that the change is reflecting.
+
+Note: client code is written using Angular js.
+
+From downloaded folder ps-spring-boot-resources\java copy Shipwreck to model and ShipwreckStub to controller.
+Create new file ShipwreckController in controller package and add CRUD methods to it.
+Restart das-boot application i.e. run App.java and hit below urls:
+http://localhost:8080/index.html
+You may click on Shipwrecks tab and do view, edit operation.
+
+How is it working?
+Once we define spring-boot-starter-web in pom.xml, it has downloaded spring mvc and also because we enable @SpringBootApplication annotation it has brought in default configuration as mentioned below:
+a.	Sets up ViewResolvers
+b.	Sets up static resource serving
+c.	Sets up httpMessage Converter
+d.	Sets up customizable hooks
+In this case Spring boot is giving us Spring MVC architecture were spring boot is itself handling the conversion of source data from browser which is json to java object and again converting back java object to json to display it on UI screen.(All of these using jackson json API)
+
+*********************************************************************************************************
+							Properties and Environmental Configuration
+*********************************************************************************************************
+We can define properties by defining application.properties file and place it in classpath(i.e. src/main/resources). Spring will load this properties at startup.
+We can also defined environment specific properties file like
+application-{profile}.properties
+application-dev.properties
+
+We can define following properties in application.properties file
+logging.level.org.springframework.web=DEBUG
+THis property defined logging level, we can see the change in console when we start the app.
+server.port=8080
+This port defines on which port spring embedded tomcat server should run.
+
+Every application-{profile}.properties file can point to different server port like prod can point to 80.
+which application-{profile}.properties to be picked by spring can be controlled by setting VM argument. 
+i.e. go to Run configurations-> select java application on LHS -> add following property in VM arguments. (called as VM options in intellij)
+-Dspring.profiles.active=test
+
+Refer below link for more such properties
+https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+
+***************************************************************************************************************
+							Configuring and accessing a datasource
+***************************************************************************************************************
+
+We would be using spring embedded H2 database.
+We would also be using 'spring boot starter data JPA' for automatic configuration with  H2 database.
+
+Add following dependencies in pom.xml
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-jpa</artifactId>
+	</dependency>
+	
+	<dependency>
+		<groupId>com.h2database</groupId>
+		<artifactId>h2</artifactId>
+	</dependency>
+
+Once we add above entries to pom.xml and do maven compile, we should be able to see that it has automatically downloaded dependencies for hibernate, jdbc and jpa.
+
+Add below properties to application-properties
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+Make sure we don't have profile property in vm arguments so that it picks default application-properties
+
+Now launch http://localhost:8080/h2-console
+to view spring embedded h2 database, type 'jdbc:h2:mem:testdb; in jdbc url and click on connect.
+Note: Try with jdbc url - jdbc:h2:file:~/dasboot if above one does not work.
+
+-----------------Configuring database properties in application.properties
+Define below properties in application.properties
+spring.h2.console.enabled=true
+spring.h2.console.path=/h2-console
+
+spring.datasource.jdbcUrl=jdbc:h2:file:~/dasboot
+spring.datasource.username=sa
+spring.datasource.password=
+spring.datasource.driverClassName=org.h2.Driver
+
+
+spring.datasource.max-active=10
+spring.datasource.max-idle=8
+spring.datasource.max-wait=10000
+spring.datasource.min-evictable-idle-time-millis=1000
+spring.datasource.min-idle=8
+spring.datasource.time-between-eviction-runs-millis=1
+
+Note: We have defined file type of database in url, so that even if application gets restarted it should retain data in file. You may create a dummy table using below scripts in dasboot schema and restart intellij application and observe that it is still present.
+
+CREATE TABLE TEST(ID INT PRIMARY KEY,
+   NAME VARCHAR(255));
+
+Now create shipwreck table as mentioned below. login to h2-console and execute below command:
+
+CREATE TABLE SHIPWRECK(
+   ID INT AUTO_INCREMENT,
+   NAME VARCHAR(255),
+   DESCRIPTION VARCHAR(2000),
+   CONDITION VARCHAR(255),
+   DEPTH INT,
+   LATITUDE DOUBLE,
+   LONGITUDE DOUBLE,
+   YEAR_DISCOVERED INT
+);
+***************************************************************************************************************
+				Creating datasource object as bean during spring boot startup
+***************************************************************************************************************
+Created class PersistenceConfiguration and added required code.
+
+
+Important statements description:
+@ConfigurationProperties(prefix = "spring.datasource")
+Above property tell spring to load all the properties that starts with spring.datasource from application.properties file and create datasource object.
+
+@Primary
+This property tells spring boot to consider this db as primary database.
+
+***************************************************************************************************************
+								Testing the spring boot project
+***************************************************************************************************************
+
+Add following dependency in pom.xml
+spring-boot-starter-test
+
+This would internally bring following dependencies:
+a.	Junit
+b.	Hamcrest
+c.	Mockito
+d.	Spring TEST
+
+
+
+
+
+
+
