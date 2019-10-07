@@ -1,0 +1,40 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	
+	<bean id = "myBusiness" class = "com.gos.spring.namematchmethodpointcut.Target"></bean>
+	
+	<bean id = "advice123" class = "com.gos.spring.namematchmethodpointcut.Advice"></bean>
+	
+	<bean id = "myServices" class = "org.springframework.aop.framework.ProxyFactoryBean">
+		<property name = "targetName" value = "myBusiness"></property>
+		<property name = "interceptorNames">
+			<list>
+				<value>staticpointcut</value>
+			</list>
+		</property>
+	</bean>
+	
+	<!--test1-->
+	<bean id = "staticpointcut" class = "org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
+		<property name="advice">
+			<ref local = "advice123"/>
+		</property>
+		<property name="mappedName">
+			<value>MyProgram</value>
+		</property>
+	</bean>
+	
+	<!--test2-->
+	<!--<bean id = "staticpointcut" class = "org.springframework.aop.support.NameMatchMethodPointcutAdvisor">
+		<property name="advice">
+			<ref local = "advice123"/>
+		</property>
+		<property name="mappedName">
+			<value>MyBusiness</value>
+		</property>
+	</bean>-->
+	
+	</beans>

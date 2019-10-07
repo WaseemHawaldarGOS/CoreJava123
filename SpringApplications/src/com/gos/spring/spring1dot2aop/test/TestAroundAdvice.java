@@ -19,9 +19,9 @@ public class TestAroundAdvice {
 	public static void main(String[] args)throws Exception {
 
 		//below line works in eclipse but not in intellij
-		//BeanFactory beans = new XmlBeanFactory(new FileSystemResource("file:src/com/gos/spring/spring1dot2aop/beforeadvice/mybeans.xml"));
+		//BeanFactory beans = new XmlBeanFactory(new FileSystemResource("file:src/com/gos/spring/spring1dot2aop/beforeadvice/aopadvices-beans.xml"));
 
-		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("conf/mybeans.xml");
+		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("conf/aopadvices-beans.xml");
 
 		/*
 		To test around advice

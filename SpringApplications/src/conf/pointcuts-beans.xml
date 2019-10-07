@@ -1,0 +1,67 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	
+	<bean id = "myBusiness" class = "com.gos.spring.staticjdkregexpointcut.Target"></bean>
+	
+	<bean id = "advice123" class = "com.gos.spring.staticjdkregexpointcut.Advice"></bean>
+	
+	<bean id = "pointcutService" class = "org.springframework.aop.framework.ProxyFactoryBean">
+	<property name = "targetName" value = "myBusiness"></property>
+	<property name = "interceptorNames">
+	<list>	
+	<value>advisor</value>
+	</list>
+	</property>
+	</bean>
+
+
+	<!--test1 : This test applies advice only for method having pattern (.*Mylogic.*)-->
+
+	<bean id="advisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+		<property name="advice">
+			<ref local="advice123"/>
+		 </property>
+		<property name="pointcut">
+			<bean class="org.springframework.aop.support.JdkRegexpMethodPointcut">
+				<property name="pattern">
+					<value>.*Mylogic.*</value>
+				</property>
+			</bean>
+		</property>
+ 	</bean>
+ 	
+ 	
+ 	<!--test2 : This test applies advice only for method having pattern (.*MyProgram.*)-->
+	<!--<bean id="advisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+		<property name="advice">
+			<ref local="advice123"/>
+		</property>
+		<property name="pointcut">
+			<bean class="org.springframework.aop.support.JdkRegexpMethodPointcut">
+				<property name="pattern">
+					<value>.*MyProgram.*</value>
+				</property>
+			</bean>
+		</property>
+ 	</bean>-->
+ 	
+ 	
+ 	<!--test3 : This test applies advice for complete class, bcz myService bean has a class as (MyBusinesslogic).-->
+	<!--<bean id="advisor" class="org.springframework.aop.support.DefaultPointcutAdvisor">
+		<property name="advice">
+			<ref local="advice123"/>
+		 </property>
+		<property name="pointcut">
+			<bean class="org.springframework.aop.support.JdkRegexpMethodPointcut">
+				<property name="pattern">
+					<value>.*Target.*</value>
+				</property>
+			</bean>
+		</property>
+ 	</bean>-->
+
+	
+	</beans>
