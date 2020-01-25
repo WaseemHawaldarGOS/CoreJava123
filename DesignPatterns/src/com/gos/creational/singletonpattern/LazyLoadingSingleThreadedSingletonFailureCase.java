@@ -1,4 +1,4 @@
-package com.gos.singletonpattern;
+package com.gos.creational.singletonpattern;
 
 /**
  * 
@@ -12,7 +12,7 @@ package com.gos.singletonpattern;
 public class LazyLoadingSingleThreadedSingletonFailureCase {
 
 	private static LazyLoadingSingleThreadedSingletonFailureCase instance;
-	private String instanceName;
+	private String instanceName = "DefaultInstance";
 
 	private LazyLoadingSingleThreadedSingletonFailureCase(){
 		

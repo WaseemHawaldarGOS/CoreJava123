@@ -1,4 +1,4 @@
-package com.gos.singletonpattern;
+package com.gos.creational.singletonpattern;
 
 public class TestSingletonBehavior {
 

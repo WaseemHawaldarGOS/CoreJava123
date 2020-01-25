@@ -1,4 +1,4 @@
-package com.gos.visitorpattern;
+package com.gos.behavioral.visitorpattern;
 
 public class DownVisitor implements Visitor {
 
