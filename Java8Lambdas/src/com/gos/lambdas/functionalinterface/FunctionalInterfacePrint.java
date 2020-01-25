@@ -1,4 +1,4 @@
-package com.gos.lambdas.simplelambda;
+package com.gos.lambdas.functionalinterface;
 
 
 /*
