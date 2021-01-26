@@ -14,13 +14,15 @@ public class MapOrFlatMap {
         Optional<String> nothing = Optional.empty();
         System.out.println(GOT.map(String::toLowerCase));
         System.out.println(nothing.map(String::toLowerCase));
+
+
         Optional<Optional<String>> anotherOptional = Optional.of(Optional.of("BreakingBad"));
-        System.out.println("Value of Optional object"+anotherOptional);
+        System.out.println("Value of Optional object is "+anotherOptional);
         System.out.println("Optional.map: "
-                +anotherOptional.map(gender -> gender.map(String::toUpperCase)));
+                +anotherOptional.map(str -> str.map(String::toUpperCase)));
         //Optional<Optional<String>>    -> flatMap -> Optional<String>
         System.out.println("Optional.flatMap: "
-                +anotherOptional.flatMap(gender -> gender.map(String::toUpperCase)));
+                +anotherOptional.flatMap(str -> str.map(String::toUpperCase)));
     }
 
 
