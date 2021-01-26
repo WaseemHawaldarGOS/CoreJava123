@@ -7,6 +7,15 @@ public class ExceptionsSamples {
 
     public static void main(String[] args) {
 
+        /**
+         * Checked and unchecked exceptions.
+         * arithmetic, nullPointer and arrayIndexOutOfBounds are unchecked exceptions,
+         * so you may comment out catch block and add just finally, it would still compile.
+         *
+         * IOException or FileNotfound exception is a checked exception,
+         * we need to necessary add catch block which would otherwise the code won't compile.
+         */
+
         /*
         ArithmeticException
          */
@@ -24,16 +33,16 @@ public class ExceptionsSamples {
         /*
         ArrayIndexOutOfBoundsException
          */
-        int inputArray1[] = {1,2};
-        int inputArray2[] = {1,2,3};
+        //int inputArray1[] = {1,2};
+        //int inputArray2[] = {1,2,3};
         //ExceptionsSamples.arrayIndexOutOfBoundsExceptionOccurence(inputArray1);
         //ExceptionsSamples.arrayIndexOutOfBoundsExceptionOccurence(inputArray2);
 
         /*
         IOException
          */
-        String validFilePath = "D:\\java_training_workspace\\SampleFiles\\test.txt";
-        String invalidFilePath = "D:\\abc\\jjj";
+        //String validFilePath = "D:\\java_training_workspace\\SampleFiles\\test.txt";
+        //String invalidFilePath = "D:\\abc\\jjj";
         //ExceptionsSamples.IOExceptionOccurence(validFilePath);
         //ExceptionsSamples.IOExceptionOccurence(invalidFilePath);
 
@@ -50,6 +59,9 @@ public class ExceptionsSamples {
         }catch(Exception e){
             e.printStackTrace();
         }
+        finally{
+
+        }
     }
 
 
@@ -62,6 +74,8 @@ public class ExceptionsSamples {
             e.printStackTrace();
         }catch(Exception e){
             e.printStackTrace();
+        }finally{
+
         }
     }
 
@@ -75,6 +89,8 @@ public class ExceptionsSamples {
             e.printStackTrace();
         }catch(Exception e){
             e.printStackTrace();
+        }finally{
+
         }
     }
 
