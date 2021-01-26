@@ -41,6 +41,13 @@ public class TreeMapExample {
         System.out.println("\n\nAfter adding balance");
         System.out.println("John Doe's new balance: " +
                 tm.get("John Doe"));
+
+         /*
+        Adding heterogeneous data will result in
+        thread "main" java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
+         */
+        tm.put(100, "dummyStr");
+        System.out.println(tm);
     }
 
 }
