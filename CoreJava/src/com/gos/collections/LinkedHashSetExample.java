@@ -6,7 +6,8 @@ import java.util.Set;
 
 
 /*
-LinkedHashSet strictly maintains insertion order
+LinkedHashSet strictly maintains insertion order.
+Heterogeneous objects are allowed
  */
 public class LinkedHashSetExample {
 
@@ -41,11 +42,14 @@ public class LinkedHashSetExample {
         System.out.println(hs.toString());
 
         System.out.println("Trying to add heterogenous data");
-        status = hs.add(100);//this line of code fails
-        if(!status)
-            System.out.println("Additional of heterogenous data succeeded");
-        else
-            System.out.println("Additional of heterogenous data failed");
+        status = hs.add(100);
+        if (status) {
+            System.out.println("Addition of heterogenous succeeded");
+        } else {
+            System.out.println("Addition of heterogenous failed");
+        }
+
+        System.out.println(hs.toString());
 
 
     }
