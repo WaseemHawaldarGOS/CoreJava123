@@ -13,7 +13,7 @@ public class SortWithIndex {
          * 1 here and the end index is 5. which means the the elements
          * starting from index 1 till index 5 would be sorted.
          */
-        Arrays.parallelSort(numbers, 1, 5);
+        Arrays.parallelSort(numbers, 1, 4);
         //converting the array to stream and displaying using forEach
         Arrays.stream(numbers).forEach(n->System.out.print(n+" "));
     }

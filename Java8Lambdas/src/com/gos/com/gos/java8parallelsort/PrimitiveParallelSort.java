@@ -12,7 +12,7 @@ the parallel sorting of array elements.
 Algorithm of parallel sorting:
 1. The given array is divided into the sub arrays and the sub arrays are further divided into the their sub arrays, this happens
 until the sub array reaches a minimum granularity.
-2. The sub arrays are sorted individually by multiple threads. The parallel sort uses Fork/Join Framework for sorting sub arrays parallelly.
+2. The sub arrays are sorted individually by multiple threads. The parallel sort uses Fork/Join Framework for sorting sub arrays parallely.
 3. The sorted sub arrays are merged.
 
 Advantage of Parallel Sort Over Simple Sort:
