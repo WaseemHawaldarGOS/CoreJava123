@@ -10,7 +10,7 @@ public class ImplementInterfaceWithStaticMethod implements InterfaceWithStaticMe
         System.out.println("String is: "+str);
     }
     public static void main(String[] args) {
-        ImplementInterfaceWithStaticMethod obj = new ImplementInterfaceWithStaticMethod();
+        InterfaceWithStaticMethod obj = new ImplementInterfaceWithStaticMethod();
 
         //calling the static method of interface
         InterfaceWithStaticMethod.anotherNewMethod();

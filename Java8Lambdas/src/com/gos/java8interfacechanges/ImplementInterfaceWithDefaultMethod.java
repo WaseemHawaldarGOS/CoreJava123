@@ -31,7 +31,7 @@ public class ImplementInterfaceWithDefaultMethod implements InterfaceWithDefault
         System.out.println("String is: "+str);
     }
     public static void main(String[] args) {
-        ImplementInterfaceWithDefaultMethod obj = new ImplementInterfaceWithDefaultMethod();
+        InterfaceWithDefaultMethod obj = new ImplementInterfaceWithDefaultMethod();
 
         //calling the default method of interface
         obj.newMethod();
