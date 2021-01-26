@@ -42,7 +42,7 @@ public class MergingStringJoiners {
 
         /* Merging both the strings
          * The important point to note here is that the output string will be
-         * having the delimiter prefix and suffix of the first string (the string
+         * having the prefix and suffix of the first string (the string
          * which is calling the merge method of StringJoiner)
          */
         StringJoiner mergedString = mystring.merge(myanotherstring);
