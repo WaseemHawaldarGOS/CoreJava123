@@ -32,7 +32,8 @@ public interface Consumer<T> {
 accept() method is the primary abstract method of the Consumer functional interface. Its function descriptor being T -> ().
 I.e. accept() method takes as input the type T and returns no value. I will explain usage of accept() with detailed example in the next section.
 
-andThen() is a default method in Consumer interface. Method andThen(), when applied on a Consumer interface, takes as input another instance of Consumer
+andThen() is a default method in Consumer interface. Method andThen(), when applied on a Consumer interface, takes as input another
+instance of Consumer
  interface and returns as a result a new consumer interface which represents aggregation of both of the operations defined in
  the two Consumer interfaces. I will explain the usage of andThen() with a detailed example in coming sections.
  */
@@ -68,6 +69,6 @@ public class ConsumerExample {
 	public static void printList(List<Integer> listOfIntegers, Consumer<Integer> consumer) {
 		for (Integer integer : listOfIntegers) {
 			consumer.accept(integer);
-		}
+	}
 	}
 }

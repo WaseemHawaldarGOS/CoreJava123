@@ -22,7 +22,7 @@ public class FunctionExample {
 		/**
 		 * Invocation of primary apply method
 		 */
-/*		Function<Employee, String> funcEmpToString = (Employee e) -> {
+		Function<Employee, String> funcEmpToString = (Employee e) -> {
 			return e.getName();
 		};
 		
@@ -30,14 +30,14 @@ public class FunctionExample {
 				new Employee("Ethan Hardy", 65), new Employee("Nancy Smith", 15),
 				new Employee("Deborah Sprightly", 29));
 		List<String> empNameList = convertEmpListToNamesList(employeeList, funcEmpToString);
-		empNameList.forEach(System.out::println);*/
+		empNameList.forEach(System.out::println);
 		
 		
 		
 		/**
 		 * Invocation of andThen method
 		 */
-/*		Function<Employee, String> funcEmpToString = (Employee e) -> {
+		/*Function<Employee, String> funcEmpToString = (Employee e) -> {
 			return e.getName();
 		};
 		
@@ -55,7 +55,7 @@ public class FunctionExample {
 		/**
 		 * Invocation of compose method
 		 */
-		Function<Employee, String> funcEmpToString = (Employee e) -> {
+		/*Function<Employee, String> funcEmpToString = (Employee e) -> {
 			return e.getName();
 		};
 		
@@ -69,7 +69,7 @@ public class FunctionExample {
 				new Employee("Ethan Hardy", 65), new Employee("Nancy Smith", 15),
 				new Employee("Deborah Sprightly", 29));
 		List<String> empNameList = convertEmpListToNamesList(employeeList, funcEmpToString.compose(funcEmpToString2));
-		empNameList.forEach(System.out::println);
+		empNameList.forEach(System.out::println);*/
 		
 		/**
 		 * Invocation of identity method. Not much clarity on this.
