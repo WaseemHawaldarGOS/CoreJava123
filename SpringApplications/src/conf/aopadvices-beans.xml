@@ -1,0 +1,53 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	
+	<bean id = "target" class = "com.gos.spring.spring1dot2aop.target.Target"></bean>
+
+	<bean id = "beforeAdvice" class = "com.gos.spring.spring1dot2aop.beforeadvice.BeforeAdvice"></bean>
+
+	<bean id = "proxyBeanBeforeAdvice" class = "org.springframework.aop.framework.ProxyFactoryBean">
+		<property name = "targetName" value = "target"></property>
+		<property name = "interceptorNames">
+			<list>
+				<idref bean="beforeAdvice"/>
+			</list>
+		</property>
+	</bean>
+
+	<bean id = "afterAdvice" class = "com.gos.spring.spring1dot2aop.afteradvice.AfterAdvice"></bean>
+
+	<bean id = "proxyBeanAfterAdvice" class = "org.springframework.aop.framework.ProxyFactoryBean">
+		<property name = "targetName" value = "target"></property>
+		<property name = "interceptorNames">
+			<list>
+				<idref bean="afterAdvice"/>
+			</list>
+		</property>
+	</bean>
+
+	<bean id = "throwsAdvice" class = "com.gos.spring.spring1dot2aop.throwsadvice.ThrowsAdvice"></bean>
+	<bean id = "throwsAdviceTarget" class = "com.gos.spring.spring1dot2aop.target.ThrowsAdviceTarget"></bean>
+
+	<bean id = "proxyBeanThrowsAdvice" class = "org.springframework.aop.framework.ProxyFactoryBean">
+		<property name = "targetName" value = "throwsAdviceTarget"></property>
+		<property name = "interceptorNames">
+			<list>
+				<idref bean="throwsAdvice"/>
+			</list>
+		</property>
+	</bean>
+
+	<bean id = "aroundAdvice" class = "com.gos.spring.spring1dot2aop.aroundadvice.AroundAdvice"></bean>
+
+	<bean id = "proxyBeanAroundAdvice" class = "org.springframework.aop.framework.ProxyFactoryBean">
+		<property name = "targetName" value = "target"></property>
+		<property name = "interceptorNames">
+			<list>
+				<idref bean="aroundAdvice"/>
+			</list>
+		</property>
+	</bean>
+
+</beans>

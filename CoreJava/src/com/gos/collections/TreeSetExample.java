@@ -23,8 +23,8 @@ public class TreeSetExample {
         Adding heterogeneous data will result in
         thread "main" java.lang.ClassCastException: java.lang.String cannot be cast to java.lang.Integer
          */
-/*        ts.add(1);
-        ts.add(2);*/
+        ts.add(1);
+        ts.add(2);
         System.out.println(ts);
     }
 

@@ -1,0 +1,53 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop-2.5.xsd"
+	   xmlns:aop="http://www.springframework.org/schema/aop">
+
+
+	<bean id = "beforeTarget" class = "com.gos.spring.schemabasedadvices.beforeadvice.BeforeTarget" />
+	<bean id = "beforeAdvice" class = "com.gos.spring.schemabasedadvices.beforeadvice.BeforeAdvice"/>
+
+	<aop:config>
+		<aop:aspect id = "aspectBeforeAdvice" ref = "beforeAdvice">
+			<aop:before method = "loggingMethod"
+						pointcut="within(com.gos.spring.schemabasedadvices.beforeadvice.BeforeTarget)"/>
+		</aop:aspect>
+	</aop:config>
+
+
+	<bean id = "afterTarget" class = "com.gos.spring.schemabasedadvices.afteradvice.AfterTarget" />
+	<bean id = "afterAdvice" class = "com.gos.spring.schemabasedadvices.afteradvice.AfterAdvice"/>
+
+	<aop:config>
+		<aop:aspect id = "aspectAfterAdvice" ref = "afterAdvice">
+			<aop:after method = "loggingMethod"
+						pointcut="within(com.gos.spring.schemabasedadvices.afteradvice.AfterTarget)"/>
+		</aop:aspect>
+	</aop:config>
+
+
+	<bean id = "throwsTarget" class = "com.gos.spring.schemabasedadvices.throwsadvice.ThrowsTarget" />
+	<bean id = "throwsAdvice" class = "com.gos.spring.schemabasedadvices.throwsadvice.ThrowsAdvice"/>
+
+	<aop:config>
+		<aop:aspect id = "aspectThrowsAdvice" ref = "throwsAdvice">
+			<aop:after-throwing method = "loggingMethod"
+					   pointcut="within(com.gos.spring.schemabasedadvices.throwsadvice.ThrowsTarget)"/>
+		</aop:aspect>
+	</aop:config>
+
+
+	<bean id = "aroundTarget" class = "com.gos.spring.schemabasedadvices.aroundadvice.AroundTarget" />
+	<bean id = "aroundAdvice" class = "com.gos.spring.schemabasedadvices.aroundadvice.AroundAdvice"/>
+	<aop:config>
+		<aop:aspect id = "aspectAroundAdvice" ref = "aroundAdvice">
+		<aop:around method = "loggingMethod"
+						pointcut="within(com.gos.spring.schemabasedadvices.aroundadvice.AroundTarget)"/>
+		</aop:aspect>
+	</aop:config>
+
+
+</beans>

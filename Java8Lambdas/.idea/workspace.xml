@@ -1,0 +1,1239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff742fe6-1aa3-448a-acfe-794faf1b5dcb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../CoreJava/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/collections/IteratorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/com/gos/collections/IteratorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/executors/threadpoolCallable/ThreadPoolExecutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/com/gos/executors/threadpoolCallable/ThreadPoolExecutorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstractconcept/DatabaseDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstractconcept/DatabaseDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstractconcept/DatabaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstractconcept/DatabaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstractconcept/MySQLDatabaseDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstractconcept/MySQLDatabaseDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstractconcept/OracleDatabaseDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstractconcept/OracleDatabaseDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstractconcept/TestAbstractConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstractconcept/TestAbstractConcept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstraction/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstraction/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstraction/BankEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstraction/BankEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstraction/BankInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstraction/BankInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstraction/BankManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstraction/BankManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstraction/TestAbstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstraction/TestAbstraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/algorithms/Assignments.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/algorithms/Assignments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/algorithms/FactorialUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/algorithms/FactorialUsingRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/algorithms/FactorialWithoutRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/algorithms/FactorialWithoutRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/algorithms/Fibonocci.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/algorithms/Fibonocci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/algorithms/LinkedListAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/algorithms/LinkedListAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/algorithms/LinkedListAlgo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/algorithms/LinkedListAlgo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/classes/SymbianPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/classes/SymbianPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/classes/TestClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/classes/TestClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/dynamicpolymorphism/IOSPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/dynamicpolymorphism/IOSPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/dynamicpolymorphism/IPhone5s.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/dynamicpolymorphism/IPhone5s.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/dynamicpolymorphism/IPhone6s.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/dynamicpolymorphism/IPhone6s.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/dynamicpolymorphism/IPhone7Plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/dynamicpolymorphism/IPhone7Plus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/dynamicpolymorphism/TestDynamicPolymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/dynamicpolymorphism/TestDynamicPolymorphism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/encapsulation/AndriodPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/encapsulation/AndriodPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/encapsulation/TestEncapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/encapsulation/TestEncapsulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/exeptions/ExceptionsSamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/exeptions/ExceptionsSamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/exeptions/ThrowNewException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/exeptions/ThrowNewException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/exeptions/ThrowsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/exeptions/ThrowsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/inheritence/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/inheritence/Bicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/inheritence/MountainBicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/inheritence/MountainBicycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/inheritence/TestInheritence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/inheritence/TestInheritence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/staticpolymorphism/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/staticpolymorphism/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/staticpolymorphism/ScientificCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/staticpolymorphism/ScientificCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/staticpolymorphism/TestStaticPolymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/staticpolymorphism/TestStaticPolymorphism.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/timecomplexity/TimeComplexity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/timecomplexity/TimeComplexity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/threads/threadjoining/TestThreadJoining.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/com/gos/threads/threadjoining/TestThreadJoining.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/threads/threadproducerconsumer/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/com/gos/threads/threadproducerconsumer/ProducerConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorldWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorldWebApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorldWebApp/HelloWorldWebApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorldWebApp/HelloWorldWebApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java8Lambdas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java8Lambdas.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gos/lambdas/consumer/ConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gos/lambdas/consumer/ConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gos/lambdas/function/FunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gos/lambdas/function/FunctionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/SpringApplications.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/aopalliance.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/asm-1.3.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/aspectjrt-1.2.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/aspectjweaver-1.6.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/cglib-nodep-2.1_3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/commons-io-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/commons-logging-1.0.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/commons-pool-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/jstl.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/mysql-connector-java-5.1.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.aop-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.asm-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.aspects-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.beans-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.context-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.context.support-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.core-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.expression-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.instrument-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.instrument.tomcat-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.jdbc-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.jms-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.orm-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.oxm-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.test-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.transaction-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.web-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.web.portlet-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.web.servlet-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.web.struts-3.0.0.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/standard.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/resources/database.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/namematchmethodpointcut/Advice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/namematchmethodpointcut/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/namematchmethodpointcut/TestNameMatchPointcut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/afteradvice/AfterAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/afteradvice/AfterTarget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/aroundadvice/AroundAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/aroundadvice/AroundTarget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/beforeadvice/BeforeAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/beforeadvice/BeforeTarget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/test/TestSchemaBasedAdvices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/throwsadvice/ThrowsAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/throwsadvice/ThrowsTarget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/afteradvice/AfterAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/aroundadvice/AroundAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/beforeadvice/BeforeAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/target/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/target/ThrowsAdviceTarget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/test/TestAdvices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/test/TestAroundAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/throwsadvice/MyExceptions1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/throwsadvice/MyExceptions2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/throwsadvice/ThrowsAdvice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/springdi/dao/EmployeeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/springdi/dao/EmployeeDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/springdi/service/EmployeeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/springdi/service/EmployeeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/springdi/test/TestDI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/staticjdkregexpointcut/Advice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/staticjdkregexpointcut/Target.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/staticjdkregexpointcut/TestPointcut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/conf/aopadvices-beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/conf/jdkregexpointcuts-beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/conf/namematchpointcut-beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/conf/schemaadvices-beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/conf/springdi-beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/Springv4QuestionService.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/JSON_parser.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/aai_questionnaire.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/commons-logging-1.1.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/eclipselink-2.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/jackson-annotations-2.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/jackson-core-2.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/jackson-databind-2.9.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/javax.persistence_2.0.4.v201112161009.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/ojdbc7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/slf4j-api-1.7.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-aop-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-aspects-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-beans-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-context-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-context-support-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-core-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-data-commons-1.5.1.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-data-jpa-1.4.3.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-expression-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-instrument-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-instrument-tomcat-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-jdbc-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-jms-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-messaging-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-orm-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-oxm-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-test-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-tx-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-web-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-webmvc-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-webmvc-portlet-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-websocket-4.3.16.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/apigateway/QtnApiGateWay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcDimQtnCatMls.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcDimQtnCatMlsPk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcDimQtnCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcDimQtnType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcDimQtnTypeMls.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcDimQtnTypeMlsPk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcFctQtnAnsOptMls.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcFctQtnAnsOptMlsPK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcFctQuestionMls.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcFctQuestionMlsPK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AnswerOptionConditionMls.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AnswerOptionConditionMlsPK.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AnswerOptionsConditionBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/OptionBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/QuestionBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/QuestionDynamicAnswerOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/Views.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/config/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/controller/RequestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/repositories/QuestionCategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/repositories/QuestionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/repositories/QuestionTypeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/service/QuestionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UIDGenerationSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UIDGenerationSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/config/PersistenceConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/controller/ShipwreckStub.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/controller/ShipwrekController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/model/Shipwreck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/repository/ShipwreckRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/Creating your first Spring boot application.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/application-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/css/style.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/images/shipwreck.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/js/controllers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/js/nav-controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/js/services.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/css/angular-csp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-animate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-animate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-animate.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-resource.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-resource.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-resource.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap-tpls.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap-tpls.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-router.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/assets/js/ie10-viewport-bug-workaround.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/html5shiv/html5shiv-printshiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/html5shiv/html5shiv-printshiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/html5shiv/html5shiv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/html5shiv/html5shiv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/jquery/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/jquery/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/jquery/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/require/require.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/respond/respond.matchmedia.addListener.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/respond/respond.matchmedia.addListener.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/respond/respond.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/respond/respond.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/views/_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/views/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/views/shipwreck-add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/views/shipwreck-edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/views/shipwreck-view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/views/shipwrecks.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/test/java/com/boot/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dasboot/src/test/java/com/boot/ShipwrekControllerTest.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>default</find>
+      <find>isNull</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/gos/java8stream/AllMatchExample.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8stream/DisplaySelectedIntegers.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8stream/FilterAndCollect.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8stream/FilterAndMap.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8stream/FilterMapWithKeysAndValues.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8stream/FilterNullValues.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8foreach/ForEachOrderedExample.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8foreach/IterateAList.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8foreach/IterateAMap.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8foreach/IterateAStream.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8collectors/FetchingAsList.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8collectors/CollectingAsList.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8collectors/AverageIntUsage.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8collectors/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8collectors/GroupingAndCounting.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8stringjoiner/SetEmptyLengthToStringMethods.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8stringjoiner/UsingDelimiter.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8stringjoiner/UsingPrefixAndSuffix.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8optional/OfNullable.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8optional/WithFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/lambdas/lambdabasics/LambdaBasicExamples.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8optional/IsOrIfPresent.java" />
+        <option value="$PROJECT_DIR$/src/com/test/practice/lambdas/FunctionalInterfacewithnoparams.java" />
+        <option value="$PROJECT_DIR$/src/com/test/practice/lambdas/FunctionalInterfacewithmultiparams.java" />
+        <option value="$PROJECT_DIR$/src/com/test/practice/predicate/TestPredicates.java" />
+        <option value="$PROJECT_DIR$/src/com/test/practice/supplier/TestSuppliers.java" />
+        <option value="$PROJECT_DIR$/src/com/test/practice/consumer/TestConsumers.java" />
+        <option value="$PROJECT_DIR$/src/com/test/practice/function/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/test/practice/function/TestFunctions.java" />
+        <option value="$PROJECT_DIR$/src/com/test/practice/lambdas/TestLambdas.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8collectors/CollectingAsSet.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/practice/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/practice/AverageOfAge.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/practice/mapOfStudents.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/practice/FIlterStudents.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/practice/GroupingAndCounting.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/practice/GroupingAndCountingTest.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8optional/MapOrFlatMap.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8optional/OrElseGet.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8parallelsort/PrimitiveParallelSort.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8parallelsort/SortWithIndex.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/com/gos/java8stringjoiner/MergingStringJoiners.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8interfacechanges/ImplementInterfaceWithDefaultMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8interfacechanges/ImplementInterfaceWithStaticMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8methodreference/ArbitraryObjectMethodReference.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8methodreference/MyInterface2.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8methodreference/ConstructorMethodReference.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/java8methodreference/StaticMethodReference.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/lambdas/completablefuture/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/lambdas/consumer/ConsumerExample.java" />
+        <option value="$PROJECT_DIR$/src/com/gos/lambdas/function/FunctionExample.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1944" />
+    <option name="height" value="1104" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="java8collectors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="java8optional" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="java8parallelsort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="java8stringjoiner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="java8foreach" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="java8interfacechanges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="java8methodreference" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="java8methodreference" type="462c0819:PsiDirectoryNode" />
+              <item name="ConstructorMethodReference.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="java8methodreference" type="462c0819:PsiDirectoryNode" />
+              <item name="StaticMethodReference.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="java8stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="completablefuture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="functionalinterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="lambdabasics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="predicate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java8Lambdas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java8Lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gos" type="462c0819:PsiDirectoryNode" />
+              <item name="lambdas" type="462c0819:PsiDirectoryNode" />
+              <item name="supplier" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611726739269" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/JSON_parser.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gos.com.gos.practice" />
+      <recent name="com.test.practice.lambdas" />
+      <recent name="com.gos.com.gos.java8collectors" />
+      <recent name="com.gos.java8methodreference" />
+      <recent name="com.gos.lambdas.lambdabasics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyRepoLatest\CoreJava123\Java8Lambdas\lib" />
+      <recent name="D:\MyRepoLatest\CoreJava123\Java8Lambdas\src\com\gos\lambdas" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.FilterListUsingStream">
+    <configuration name="DisplaySelectedIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.java8stream.DisplaySelectedIntegers" />
+      <module name="Java8Lambdas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gos.java8stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FilterListUsingStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.java8stream.FilterListUsingStream" />
+      <module name="Java8Lambdas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gos.java8stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionalInterfacePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.lambdas.functionalinterface.FunctionalInterfacePrint" />
+      <module name="Java8Lambdas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gos.lambdas.functionalinterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaBasicExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.lambdas.lambdabasics.LambdaBasicExamples" />
+      <module name="Java8Lambdas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gos.lambdas.lambdabasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.lambdas.predicate.PredicateExample" />
+      <module name="Java8Lambdas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gos.lambdas.predicate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FunctionalInterfacePrint" />
+      <item itemvalue="Application.LambdaBasicExamples" />
+      <item itemvalue="Application.PredicateExample" />
+      <item itemvalue="Application.DisplaySelectedIntegers" />
+      <item itemvalue="Application.FilterListUsingStream" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FilterListUsingStream" />
+        <item itemvalue="Application.DisplaySelectedIntegers" />
+        <item itemvalue="Application.PredicateExample" />
+        <item itemvalue="Application.LambdaBasicExamples" />
+        <item itemvalue="Application.FunctionalInterfacePrint" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ff742fe6-1aa3-448a-acfe-794faf1b5dcb" name="Default Changelist" comment="" />
+      <created>1579863457539</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579863457539</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Adding Java 8 lambdas/functional interfaces.">
+      <created>1579870057992</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579870057993</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added Java 8 new features.">
+      <created>1579927670189</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579927670189</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added Java 8 new features.">
+      <created>1611664063727</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611664063727</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added Java 8 new features.">
+      <created>1611667326092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611667326092</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added Java 8 new features.">
+      <created>1611667641298</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611667641298</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added Java 8 new features.">
+      <created>1611668519443</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611668519443</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added Java 8 new features.">
+      <created>1611670411463</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611670411463</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1818792" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="SBT Console" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.13314448" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Module Dependencies" order="8" weight="0.3295302" />
+      <window_info anchor="right" id="Run" order="9" weight="0.28255033" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding Java 8 lambdas/functional interfaces." />
+    <MESSAGE value="Added Java 8 new features." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Java 8 new features." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/gos/lambdas/completablefuture/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="160" column="26" lean-forward="true" selection-start-line="160" selection-start-column="26" selection-end-line="160" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/lambdas/consumer/ConsumerExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="49" column="59" lean-forward="true" selection-start-line="49" selection-start-column="59" selection-end-line="49" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/lambdas/function/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/lambdas/functionalinterface/FirstInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/lambdas/function/FunctionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="41" column="10" lean-forward="true" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/lambdas/functionalinterface/FunctionalInterfacePrint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/lambdas/functionalinterface/PredefineFunctionalInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/lambdas/lambdabasics/MyFunctionalInterface2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/lambdas/lambdabasics/MyFunctionalInterface1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/lambdas/lambdabasics/MyFunctionalInterface3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/lambdas/lambdabasics/LambdaBasicExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/lambdas/predicate/PredicateExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="53" column="10" lean-forward="true" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8stream/AnyMatchExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" column="70" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8stream/ConcatStreams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8stream/FilterAndCollect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8stream/FilterAndMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8stream/FilterListUsingStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8stream/FilterMapWithKeysAndValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8stream/FilterNullValues.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8stream/noneMatchExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8stream/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8stream/AllMatchExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8stream/DisplaySelectedIntegers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8collectors/CollectingAsList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8collectors/AverageIntUsage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8collectors/CollectingAsSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8collectors/GroupingAndCounting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8optional/IsOrIfPresent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8optional/MapOrFlatMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8optional/OfNullable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="54" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8optional/OrElseGet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8optional/WithFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8parallelsort/PrimitiveParallelSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="25" column="47" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8parallelsort/SortWithIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8stringjoiner/MergingStringJoiners.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8stringjoiner/SetEmptyLengthToStringMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8stringjoiner/UsingDelimiter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/com/gos/java8stringjoiner/UsingPrefixAndSuffix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8foreach/ForEachOrderedExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8foreach/IterateAList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8foreach/IterateAMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8foreach/IterateAStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8interfacechanges/ImplementInterfaceWithDefaultMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="e#1885#1886#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8interfacechanges/ImplementInterfaceWithStaticMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8interfacechanges/InterfaceWithDefaultMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8interfacechanges/InterfaceWithStaticMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8methodreference/ArbitraryObjectMethodReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8methodreference/MyInterface2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8methodreference/ConstructorMethodReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#215#216#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8methodreference/InstanceMethodReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/gos/java8methodreference/StaticMethodReference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Java8Lambdas</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
