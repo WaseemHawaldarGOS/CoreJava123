@@ -2,267 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff742fe6-1aa3-448a-acfe-794faf1b5dcb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../CoreJava/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/collections/IteratorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/com/gos/collections/IteratorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/executors/threadpoolCallable/ThreadPoolExecutorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/com/gos/executors/threadpoolCallable/ThreadPoolExecutorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstractconcept/DatabaseDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstractconcept/DatabaseDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstractconcept/DatabaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstractconcept/DatabaseModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstractconcept/MySQLDatabaseDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstractconcept/MySQLDatabaseDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstractconcept/OracleDatabaseDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstractconcept/OracleDatabaseDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstractconcept/TestAbstractConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstractconcept/TestAbstractConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstraction/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstraction/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstraction/BankEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstraction/BankEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstraction/BankInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstraction/BankInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstraction/BankManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstraction/BankManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/abstraction/TestAbstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/abstraction/TestAbstraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/algorithms/Assignments.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/algorithms/Assignments.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/algorithms/FactorialUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/algorithms/FactorialUsingRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/algorithms/FactorialWithoutRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/algorithms/FactorialWithoutRecursion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/algorithms/Fibonocci.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/algorithms/Fibonocci.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/algorithms/LinkedListAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/algorithms/LinkedListAlgo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/algorithms/LinkedListAlgo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/algorithms/LinkedListAlgo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/classes/SymbianPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/classes/SymbianPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/classes/TestClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/classes/TestClasses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/dynamicpolymorphism/IOSPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/dynamicpolymorphism/IOSPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/dynamicpolymorphism/IPhone5s.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/dynamicpolymorphism/IPhone5s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/dynamicpolymorphism/IPhone6s.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/dynamicpolymorphism/IPhone6s.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/dynamicpolymorphism/IPhone7Plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/dynamicpolymorphism/IPhone7Plus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/dynamicpolymorphism/TestDynamicPolymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/dynamicpolymorphism/TestDynamicPolymorphism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/encapsulation/AndriodPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/encapsulation/AndriodPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/encapsulation/TestEncapsulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/encapsulation/TestEncapsulation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/exeptions/ExceptionsSamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/exeptions/ExceptionsSamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/exeptions/ThrowNewException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/exeptions/ThrowNewException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/exeptions/ThrowsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/exeptions/ThrowsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/inheritence/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/inheritence/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/inheritence/MountainBicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/inheritence/MountainBicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/inheritence/TestInheritence.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/inheritence/TestInheritence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/staticpolymorphism/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/staticpolymorphism/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/staticpolymorphism/ScientificCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/staticpolymorphism/ScientificCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/staticpolymorphism/TestStaticPolymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/staticpolymorphism/TestStaticPolymorphism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/oops/timecomplexity/TimeComplexity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/oops/timecomplexity/TimeComplexity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/threads/threadjoining/TestThreadJoining.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/com/gos/threads/threadjoining/TestThreadJoining.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CoreJava/src/com/gos/threads/threadproducerconsumer/ProducerConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CoreJava/src/com/gos/threads/threadproducerconsumer/ProducerConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloWorldWebApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorldWebApp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../HelloWorldWebApp/HelloWorldWebApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HelloWorldWebApp/HelloWorldWebApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java8Lambdas.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Java8Lambdas.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gos/lambdas/consumer/ConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gos/lambdas/consumer/ConsumerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gos/lambdas/function/FunctionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gos/lambdas/function/FunctionExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/SpringApplications.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/aopalliance.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/asm-1.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/aspectjrt-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/aspectjweaver-1.6.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/cglib-nodep-2.1_3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/commons-dbcp-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/commons-io-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/commons-logging-1.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/commons-pool-1.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/jstl.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/mysql-connector-java-5.1.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.aop-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.asm-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.aspects-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.beans-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.context-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.context.support-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.core-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.expression-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.instrument-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.instrument.tomcat-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.jdbc-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.jms-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.orm-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.oxm-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.test-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.transaction-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.web-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.web.portlet-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.web.servlet-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/org.springframework.web.struts-3.0.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/lib/standard.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/resources/database.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/namematchmethodpointcut/Advice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/namematchmethodpointcut/Target.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/namematchmethodpointcut/TestNameMatchPointcut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/afteradvice/AfterAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/afteradvice/AfterTarget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/aroundadvice/AroundAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/aroundadvice/AroundTarget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/beforeadvice/BeforeAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/beforeadvice/BeforeTarget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/test/TestSchemaBasedAdvices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/throwsadvice/ThrowsAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/schemabasedadvices/throwsadvice/ThrowsTarget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/afteradvice/AfterAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/aroundadvice/AroundAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/beforeadvice/BeforeAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/target/Target.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/target/ThrowsAdviceTarget.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/test/TestAdvices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/test/TestAroundAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/throwsadvice/MyExceptions1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/throwsadvice/MyExceptions2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/spring1dot2aop/throwsadvice/ThrowsAdvice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/springdi/dao/EmployeeDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/springdi/dao/EmployeeDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/springdi/service/EmployeeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/springdi/service/EmployeeServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/springdi/test/TestDI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/staticjdkregexpointcut/Advice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/staticjdkregexpointcut/Target.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/com/gos/spring/staticjdkregexpointcut/TestPointcut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/conf/aopadvices-beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/conf/jdkregexpointcuts-beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/conf/namematchpointcut-beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/conf/schemaadvices-beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringApplications/src/conf/springdi-beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/Springv4QuestionService.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/JSON_parser.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/aai_questionnaire.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/commons-logging-1.1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/eclipselink-2.5.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/jackson-annotations-2.9.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/jackson-core-2.9.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/jackson-databind-2.9.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/javax.persistence_2.0.4.v201112161009.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/ojdbc7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/slf4j-api-1.7.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-aop-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-aspects-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-beans-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-context-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-context-support-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-core-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-data-commons-1.5.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-data-jpa-1.4.3.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-expression-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-instrument-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-instrument-tomcat-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-jdbc-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-jms-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-messaging-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-orm-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-oxm-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-test-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-tx-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-web-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-webmvc-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-webmvc-portlet-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/lib/spring-websocket-4.3.16.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/apigateway/QtnApiGateWay.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcDimQtnCatMls.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcDimQtnCatMlsPk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcDimQtnCategory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcDimQtnType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcDimQtnTypeMls.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcDimQtnTypeMlsPk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcFctQtnAnsOptMls.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcFctQtnAnsOptMlsPK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcFctQuestionMls.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AaiAbcFctQuestionMlsPK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AnswerOptionConditionMls.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AnswerOptionConditionMlsPK.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/AnswerOptionsConditionBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/OptionBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/QuestionBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/QuestionDynamicAnswerOptions.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/beans/Views.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/config/AppInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/controller/RequestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/repositories/QuestionCategoryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/repositories/QuestionRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/repositories/QuestionTypeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Springv4QuestionService/src/com/gos/questionnaire/service/QuestionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UIDGenerationSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UIDGenerationSystem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/config/PersistenceConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/controller/ShipwreckStub.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/controller/ShipwrekController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/model/Shipwreck.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/java/com/boot/repository/ShipwreckRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/Creating your first Spring boot application.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/application-prod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/css/style.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/images/shipwreck.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/js/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/js/controllers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/js/nav-controller.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/js/services.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/css/angular-csp.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-animate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-animate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-animate.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-resource.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-resource.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-resource.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap-tpls.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap-tpls.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-bootstrap.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular-ui-router.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/angular/js/angular.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/assets/js/ie10-viewport-bug-workaround.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap-theme.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/bootstrap/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/html5shiv/html5shiv-printshiv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/html5shiv/html5shiv-printshiv.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/html5shiv/html5shiv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/html5shiv/html5shiv.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/jquery/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/jquery/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/jquery/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/require/require.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/respond/respond.matchmedia.addListener.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/respond/respond.matchmedia.addListener.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/respond/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/lib/respond/respond.src.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/views/_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/views/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/views/shipwreck-add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/views/shipwreck-edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/views/shipwreck-view.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/main/resources/public/views/shipwrecks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/test/java/com/boot/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../dasboot/src/test/java/com/boot/ShipwrekControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/META-INF/Java8Lambdas.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8stringjoiner/SetEmptyLengthToStringMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8stringjoiner/SetEmptyLengthToStringMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gos/com/gos/java8stringjoiner/SetEmptyLengthToStringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gos/com/gos/java8stringjoiner/SetEmptyLengthToStringMethods.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -345,6 +93,7 @@
     <option name="width" value="1944" />
     <option name="height" value="1104" />
   </component>
+  <component name="ProjectId" id="1rFWVM8XdBwt4Q12jdycsV2viT2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -556,9 +305,15 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611726739269" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/JSON_parser.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -576,21 +331,22 @@
       <recent name="D:\MyRepoLatest\CoreJava123\Java8Lambdas\src\com\gos\lambdas" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.FilterListUsingStream">
-    <configuration name="DisplaySelectedIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gos.java8stream.DisplaySelectedIntegers" />
+  <component name="RunManager" selected="Application.ConcatStreams">
+    <configuration name="ArbitraryObjectMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.java8methodreference.ArbitraryObjectMethodReference" />
+      <module name="Java8Lambdas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gos.java8methodreference.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConcatStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.java8stream.ConcatStreams" />
       <module name="Java8Lambdas" />
       <extension name="coverage">
         <pattern>
@@ -602,12 +358,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FilterListUsingStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gos.java8stream.FilterListUsingStream" />
+    <configuration name="ForEachOrderedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.java8foreach.ForEachOrderedExample" />
       <module name="Java8Lambdas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gos.java8stream.*" />
+          <option name="PATTERN" value="com.gos.java8foreach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -615,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalInterfacePrint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gos.lambdas.functionalinterface.FunctionalInterfacePrint" />
+    <configuration name="ImplementInterfaceWithDefaultMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.java8interfacechanges.ImplementInterfaceWithDefaultMethod" />
       <module name="Java8Lambdas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gos.lambdas.functionalinterface.*" />
+          <option name="PATTERN" value="com.gos.java8interfacechanges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -628,25 +384,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaBasicExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gos.lambdas.lambdabasics.LambdaBasicExamples" />
+    <configuration name="IterateAList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.java8foreach.IterateAList" />
       <module name="Java8Lambdas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gos.lambdas.lambdabasics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PredicateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gos.lambdas.predicate.PredicateExample" />
-      <module name="Java8Lambdas" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gos.lambdas.predicate.*" />
+          <option name="PATTERN" value="com.gos.java8foreach.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -655,22 +398,23 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FunctionalInterfacePrint" />
-      <item itemvalue="Application.LambdaBasicExamples" />
-      <item itemvalue="Application.PredicateExample" />
-      <item itemvalue="Application.DisplaySelectedIntegers" />
-      <item itemvalue="Application.FilterListUsingStream" />
+      <item itemvalue="Application.ForEachOrderedExample" />
+      <item itemvalue="Application.IterateAList" />
+      <item itemvalue="Application.ImplementInterfaceWithDefaultMethod" />
+      <item itemvalue="Application.ArbitraryObjectMethodReference" />
+      <item itemvalue="Application.ConcatStreams" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FilterListUsingStream" />
-        <item itemvalue="Application.DisplaySelectedIntegers" />
-        <item itemvalue="Application.PredicateExample" />
-        <item itemvalue="Application.LambdaBasicExamples" />
-        <item itemvalue="Application.FunctionalInterfacePrint" />
+        <item itemvalue="Application.ConcatStreams" />
+        <item itemvalue="Application.ArbitraryObjectMethodReference" />
+        <item itemvalue="Application.ImplementInterfaceWithDefaultMethod" />
+        <item itemvalue="Application.IterateAList" />
+        <item itemvalue="Application.ForEachOrderedExample" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>

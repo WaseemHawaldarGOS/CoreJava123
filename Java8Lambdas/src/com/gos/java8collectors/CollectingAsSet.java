@@ -1,4 +1,4 @@
-package com.gos.com.gos.java8collectors;
+package com.gos.java8collectors;
 
 import java.util.ArrayList;
 import java.util.List;

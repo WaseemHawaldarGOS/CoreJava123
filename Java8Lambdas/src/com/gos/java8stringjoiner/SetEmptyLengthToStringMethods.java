@@ -1,4 +1,4 @@
-package com.gos.com.gos.java8stringjoiner;
+package com.gos.java8stringjoiner;
 
 import java.util.StringJoiner;
 
@@ -42,7 +42,6 @@ public class SetEmptyLengthToStringMethods {
         /* The toString() method is used for converting a StringJoiner
          *  instance to a String.
          */
-        String s = mystring.toString();
-        System.out.println(s);
+        System.out.println(mystring);
     }
 }

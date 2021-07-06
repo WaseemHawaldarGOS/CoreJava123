@@ -1,4 +1,4 @@
-package com.gos.com.gos.java8optional;
+package com.gos.java8optional;
 
 import java.util.Optional;
 

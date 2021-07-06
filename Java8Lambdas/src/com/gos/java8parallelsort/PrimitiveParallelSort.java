@@ -1,4 +1,4 @@
-package com.gos.com.gos.java8parallelsort;
+package com.gos.java8parallelsort;
 
 import java.util.Arrays;
 

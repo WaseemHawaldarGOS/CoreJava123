@@ -1,4 +1,4 @@
-package com.gos.com.gos.java8stringjoiner;
+package com.gos.java8stringjoiner;
 
 import java.util.StringJoiner;
 
