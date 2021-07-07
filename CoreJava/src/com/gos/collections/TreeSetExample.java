@@ -3,8 +3,9 @@ package com.gos.collections;
 import java.util.Set;
 import java.util.TreeSet;
 
-/*
-TreeSet always sorts data
+/**
+ * We can add heterogeneous data to hashSet and linkedHashSet,
+ * but not to TreeSet because it needs keys to be of same type to compare the data using comparator.
  */
 public class TreeSetExample {
 

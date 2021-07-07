@@ -16,16 +16,8 @@ public class TestTreeSetComparator {
         ts.add("CB");
         ts.add("DD");
 
-
-// Get an iterator
-        Iterator i = ts.iterator();
-// Display elements
-        while(i.hasNext()) {
-            Object element = i.next();
+        for(Object element : ts){
             System.out.print(element + " ");
         }
-        System.out.println();
-
-
 }
 }

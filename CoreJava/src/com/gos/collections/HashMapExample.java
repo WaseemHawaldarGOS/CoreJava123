@@ -19,18 +19,9 @@ public class HashMapExample {
         hm.put("Todd Hall", 99.22);
         hm.put("Ralph Smith", -19.08);
 
-// Get a set of the entries
-        Set set = hm.entrySet();
-
-
-// Get an iterator
-        Iterator i = set.iterator();
-
-// Display elements
-        while(i.hasNext()) {
-            Map.Entry me = (Map.Entry)i.next();
-            System.out.print(me.getKey() + ": ");
-            System.out.println(me.getValue());
+        for(Map.Entry<String, Double> map : hm.entrySet()){
+            System.out.print(map.getKey() + ": ");
+            System.out.println(map.getValue());
         }
         System.out.println();
 

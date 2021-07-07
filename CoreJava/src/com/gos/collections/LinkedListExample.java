@@ -30,7 +30,7 @@ public class LinkedListExample {
                 + ll);
 // get and set a value
         Object val = ll.get(2);
-        ll.set(2, (String) val + " Changed");
+        ll.set(2, (String) val + " Changed");//see carefully, we have set method in linkedlist.
         System.out.println("ll after change: " + ll);
     }
 

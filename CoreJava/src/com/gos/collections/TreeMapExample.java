@@ -5,6 +5,10 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 
+/**
+ * We can add heterogeneous data to hashMap and linkedHashMap,
+ * but not to TreeMap because it needs keys to be of same type to compare the data using comparator.
+ */
 public class TreeMapExample {
 
     public static void main(String args[]) {

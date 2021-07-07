@@ -47,7 +47,7 @@ public class IteratorExample {
         System.out.print("Modified list backwards: ");
         while(litr.hasPrevious()) {
             Object element = litr.previous();
-            System.out.print(element + " ");
+            System.out.print(element + "- ");
         }
         System.out.println();
     }

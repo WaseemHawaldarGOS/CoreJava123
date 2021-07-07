@@ -10,7 +10,7 @@ public class TestTreeMapComparator {
     public static void main(String[] args) {
 
         // Create a tree map
-        TreeMap tm = new TreeMap(new TreeMapComparator());
+        TreeMap<String, Double> tm = new TreeMap(new TreeMapComparator());
 
 // Put elements to the map
         tm.put("John~Doe", 3434.34);
@@ -19,18 +19,11 @@ public class TestTreeMapComparator {
         tm.put("Todd~Hall", 99.22);
         tm.put("Ralph~Smith", -19.08);
 
-// Get a set of the entries
-        Set set = tm.entrySet();
-
-// Get an iterator
-        Iterator itr = set.iterator();
-
-// Display elements
-        while(itr.hasNext()) {
-            Map.Entry me = (Map.Entry)itr.next();
-            System.out.print(me.getKey() + ": ");
-            System.out.println(me.getValue());
+        for(Map.Entry<String, Double> map: tm.entrySet()){
+            System.out.print(map.getKey() + ": ");
+            System.out.println(map.getValue());
         }
+
         System.out.println();
 
 // Deposit 1000 into John Doe's account
