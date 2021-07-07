@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff742fe6-1aa3-448a-acfe-794faf1b5dcb" name="Default Changelist" comment="">
+    <list default="true" id="ff742fe6-1aa3-448a-acfe-794faf1b5dcb" name="Default Changelist" comment="Added Java 8 new features.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/META-INF/Java8Lambdas.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8stringjoiner/SetEmptyLengthToStringMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8stringjoiner/SetEmptyLengthToStringMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gos/com/gos/java8stringjoiner/SetEmptyLengthToStringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gos/com/gos/java8stringjoiner/SetEmptyLengthToStringMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8collectors/AverageIntUsage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8collectors/CollectingAsList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8collectors/CollectingAsSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8collectors/GroupingAndCounting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8collectors/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8optional/IsOrIfPresent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8optional/MapOrFlatMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8optional/OfNullable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8optional/OrElseGet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8optional/WithFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8parallelsort/PrimitiveParallelSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8parallelsort/SortWithIndex.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8stringjoiner/MergingStringJoiners.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8stringjoiner/SetEmptyLengthToStringMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8stringjoiner/UsingDelimiter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java8Lambdas/com/gos/com/gos/java8stringjoiner/UsingPrefixAndSuffix.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +344,7 @@
       <recent name="D:\MyRepoLatest\CoreJava123\Java8Lambdas\src\com\gos\lambdas" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConcatStreams">
+  <component name="RunManager" selected="Application.PassByReference">
     <configuration name="ArbitraryObjectMethodReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gos.java8methodreference.ArbitraryObjectMethodReference" />
       <module name="Java8Lambdas" />
@@ -358,12 +371,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForEachOrderedExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gos.java8foreach.ForEachOrderedExample" />
+    <configuration name="PassByReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.primitivesverseswrapper.PassByReference" />
       <module name="Java8Lambdas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gos.java8foreach.*" />
+          <option name="PATTERN" value="com.gos.primitivesverseswrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -371,12 +384,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ImplementInterfaceWithDefaultMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gos.java8interfacechanges.ImplementInterfaceWithDefaultMethod" />
+    <configuration name="PassByValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.primitivesverseswrapper.PassByValue" />
       <module name="Java8Lambdas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gos.java8interfacechanges.*" />
+          <option name="PATTERN" value="com.gos.primitivesverseswrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -384,12 +397,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IterateAList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gos.java8foreach.IterateAList" />
+    <configuration name="TestPrimitivesVersesWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gos.primitivesverseswrapper.TestPrimitivesVersesWrapper" />
       <module name="Java8Lambdas" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gos.java8foreach.*" />
+          <option name="PATTERN" value="com.gos.primitivesverseswrapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -398,19 +411,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ForEachOrderedExample" />
-      <item itemvalue="Application.IterateAList" />
-      <item itemvalue="Application.ImplementInterfaceWithDefaultMethod" />
       <item itemvalue="Application.ArbitraryObjectMethodReference" />
       <item itemvalue="Application.ConcatStreams" />
+      <item itemvalue="Application.TestPrimitivesVersesWrapper" />
+      <item itemvalue="Application.PassByValue" />
+      <item itemvalue="Application.PassByReference" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PassByReference" />
+        <item itemvalue="Application.PassByValue" />
+        <item itemvalue="Application.TestPrimitivesVersesWrapper" />
         <item itemvalue="Application.ConcatStreams" />
         <item itemvalue="Application.ArbitraryObjectMethodReference" />
-        <item itemvalue="Application.ImplementInterfaceWithDefaultMethod" />
-        <item itemvalue="Application.IterateAList" />
-        <item itemvalue="Application.ForEachOrderedExample" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +488,21 @@
       <option name="project" value="LOCAL" />
       <updated>1611670411463</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added Java 8 new features.">
+      <created>1625583841636</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1625583841636</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added Java 8 new features.">
+      <created>1625585307249</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1625585307249</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -510,6 +537,17 @@
       <window_info anchor="right" id="Module Dependencies" order="8" weight="0.3295302" />
       <window_info anchor="right" id="Run" order="9" weight="0.28255033" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding Java 8 lambdas/functional interfaces." />
