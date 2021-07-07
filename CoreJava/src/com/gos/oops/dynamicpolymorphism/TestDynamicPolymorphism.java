@@ -5,7 +5,7 @@ public class TestDynamicPolymorphism {
     public static void main(String[] args) {
         IOSPhone iPhone= null;
 
-        iPhone = new IPhone5s();
+        iPhone = new IPhone5s();//reference and object type is not same so it is called dynamic polymorphism
         System.out.println("-------------------buying iPhone5s ");
         iPhone.buyIPhone();
 

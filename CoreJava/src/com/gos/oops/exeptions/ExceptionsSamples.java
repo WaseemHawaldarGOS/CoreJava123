@@ -27,7 +27,7 @@ public class ExceptionsSamples {
         NullPointerException
          */
          //ExceptionsSamples.nullPointerExceptionOccurence(null);
-        //ExceptionsSamples.nullPointerExceptionOccurence("Hello");
+         //ExceptionsSamples.nullPointerExceptionOccurence("Hello");
 
 
         /*

@@ -12,7 +12,7 @@ public class MySQLDatabaseDriver extends DatabaseDriver {
     @Override
     public String DatabaseDriveImpl() {
         DatabaseModel databaseModel = getUpdatedDBDetails(this.dbURL, this.username, this.password);
-        return "Welcome to MYSQL database driver program. \n Paramaters are "+databaseModel.getDbURL() +
+        return "Welcome to MYSQL database driver program. \n Parameters are "+databaseModel.getDbURL() +
                 ", "+databaseModel.getUsername() +","+databaseModel.getPassword();
     }
 }

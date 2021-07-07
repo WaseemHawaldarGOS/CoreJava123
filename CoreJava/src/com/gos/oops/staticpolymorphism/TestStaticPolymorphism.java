@@ -9,7 +9,7 @@ public class TestStaticPolymorphism {
 
         System.out.println("\n**********************************************************\n\n");
 
-        ScientificCalculator scienCalc = new ScientificCalculator();
+        ScientificCalculator scienCalc = new ScientificCalculator();//reference and object type is same so it is called static polymorphism
         System.out.println("return value is "+scienCalc.division(6,3));
 
 
