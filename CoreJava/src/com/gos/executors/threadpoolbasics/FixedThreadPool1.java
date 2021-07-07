@@ -32,7 +32,7 @@ public class FixedThreadPool1 {
     public static void main(String[] args) {
         ExecutorService executorService = Executors.newFixedThreadPool(2);
         for(int i = 1; i<= 5; i++){
-            executorService.submit(new Processor(i));
+            executorService.execute(new Processor(i));//we can also use executorService.submit instead of execute method.
         }
 
         executorService.shutdown();
