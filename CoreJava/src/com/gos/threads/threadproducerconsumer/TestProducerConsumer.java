@@ -38,6 +38,5 @@ public class TestProducerConsumer {
 
         // t1 finishes before t2
         t1.join();
-        t2.join();
     }
 }
