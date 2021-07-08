@@ -12,7 +12,7 @@ public class MapOrFlatMap {
         Optional<String> GOT = Optional.of("Game of Thrones");
         //Optional.empty() creates an empty Optional object
         Optional<String> nothing = Optional.empty();
-        System.out.println(GOT.map(String::toLowerCase));
+        System.out.println(GOT.map(String::toLowerCase));//this is arbitrary method reference
         System.out.println(nothing.map(String::toLowerCase));
 
 
