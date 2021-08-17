@@ -1,5 +1,6 @@
 package com.gos.java8stream;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
@@ -12,7 +13,12 @@ public class AllMatchExample {
         Predicate<Student> p1 = s -> s.stuName.startsWith("A");
         Predicate<Student> p2 = s -> s.stuAge < 40;
         Predicate<Student> p3 = s -> s.stuAge < 40 && s.stuName.startsWith("P");
-        List<Student> list = Student.getStudents();
+
+        List<Student> list = new ArrayList<>();
+        list.add(new Student(11, 28, "Lucy"));
+        list.add(new Student(28, 27, "Kiku"));
+        list.add(new Student(32, 30, "Dani"));
+        list.add(new Student(49, 27, "Steve"));
 
         /* allMatch() method returns true if all the elements of stream satisfy the
          * given predicate, else it returns false

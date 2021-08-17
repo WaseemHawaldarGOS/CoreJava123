@@ -31,10 +31,10 @@ public class Test {
 			 */
 
 
-			/*System.out.println("Before calling executingTasksInParallel");
+			System.out.println("Before calling executingTasksInParallel");
 			long startTime = System.currentTimeMillis();
 			test.executingTasksInParallel();
-			System.out.println("Total time taken is "+(System.currentTimeMillis() - startTime)/1000 + " seconds ");*/
+			System.out.println("Total time taken is "+(System.currentTimeMillis() - startTime)/1000 + " seconds ");
 
 
 			/*
@@ -43,7 +43,7 @@ public class Test {
 			 */
 
 			System.out.println("Before calling executingTasksInParallel");
-			long startTime = System.currentTimeMillis();
+			startTime = System.currentTimeMillis();
 			test.executingJSONTasksInParallel();
 			System.out.println("Total time taken is "+(System.currentTimeMillis() - startTime)/1000 + " seconds ");
 			

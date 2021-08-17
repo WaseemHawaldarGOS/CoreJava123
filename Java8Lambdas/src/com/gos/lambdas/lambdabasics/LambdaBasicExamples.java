@@ -17,6 +17,7 @@ and place the expression or block of statements on the right side of lambda oper
  */
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class LambdaBasicExamples {
@@ -57,12 +58,7 @@ public class LambdaBasicExamples {
         Iterating collections using foreach loop
          */
         System.out.println("Iterating collections using foreach loop");
-        List<String> list=new ArrayList<String>();
-        list.add("Rick");
-        list.add("Negan");
-        list.add("Daryl");
-        list.add("Glenn");
-        list.add("Carl");
+        List<String> list= Arrays.asList("Rick","Negan","Daryl","Glenn","Carl");
         list.forEach(
                 // lambda expression
                 (names)->System.out.println(names)
