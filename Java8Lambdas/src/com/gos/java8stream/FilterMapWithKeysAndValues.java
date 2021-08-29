@@ -22,6 +22,8 @@ public class FilterMapWithKeysAndValues {
                 .filter(map -> map.getValue().startsWith("A")) //filter by value
                 .collect(Collectors.toMap(map -> map.getKey(), map -> map.getValue()));
 
-        System.out.println("Result: " + result);
+
+        result.forEach((key, value) -> System.out.println(key +" - "+value));
+
     }
 }
