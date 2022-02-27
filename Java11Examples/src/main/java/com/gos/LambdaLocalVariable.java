@@ -7,6 +7,11 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+/**
+ * Support for using the local variable syntax (var keyword) in lambda parameters was added in Java 11.
+ *
+ * We can make use of this feature to apply modifiers to our local variables, like defining a type annotation:
+ */
 public class LambdaLocalVariable {
 
     public static void main(String[] args) {
