@@ -14,6 +14,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
  * To test this client we started Angular rest service from below location
  * D:\Waseem\Git code\Angular JS\AngularJS\workpace\angular-rest
  */
+
+/*
+The new HTTP API improves overall performance and provides support for both HTTP/1.1 and HTTP/2:
+ */
 public class HttpClientUsage {
 
     public static void main(String[] args) {
