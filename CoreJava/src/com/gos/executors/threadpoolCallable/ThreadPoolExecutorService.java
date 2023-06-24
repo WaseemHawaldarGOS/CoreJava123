@@ -34,11 +34,11 @@ public class ThreadPoolExecutorService {
         List<Future<String>> resultantList = new ArrayList<Future<String>>();
 
         List<String> filesTobeRead = new ArrayList<String>();
-        filesTobeRead.add("D:\\java_training_workspace\\SampleFiles\\test1.txt");
-        filesTobeRead.add("D:\\java_training_workspace\\SampleFiles\\test2.txt");
-        filesTobeRead.add("D:\\java_training_workspace\\SampleFiles\\test3.txt");
-        filesTobeRead.add("D:\\java_training_workspace\\SampleFiles\\test4.txt");
-        filesTobeRead.add("D:\\java_training_workspace\\SampleFiles\\test5.txt");
+        filesTobeRead.add("resources\\test1.txt");
+        filesTobeRead.add("resources\\test2.txt");
+        filesTobeRead.add("resources\\test3.txt");
+        filesTobeRead.add("resources\\test4.txt");
+        filesTobeRead.add("resources\\test5.txt");
 
 
         for(String fileName: filesTobeRead){
