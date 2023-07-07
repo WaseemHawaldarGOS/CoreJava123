@@ -13,7 +13,7 @@ public class ScientificCalculator extends Calculator {
     /**
      * Example to prove that final method overriding is not possible
      */
-   /* public final int multiplication(int a, int b){
+    /*public final int multiplication(int a, int b){
         return a*b;
     }*/
 

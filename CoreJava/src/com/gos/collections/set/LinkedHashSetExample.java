@@ -1,4 +1,4 @@
-package com.gos.collections.map;
+package com.gos.collections.set;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;

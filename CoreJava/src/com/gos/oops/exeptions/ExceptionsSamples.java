@@ -13,7 +13,7 @@ public class ExceptionsSamples {
          * so you may comment out catch block and add just finally, it would still compile.
          *
          * IOException or FileNotfound exception is a checked exception,
-         * we need to necessary add catch block which would otherwise the code won't compile.
+         * we need to necessarily add catch block which would otherwise the code won't compile.
          */
 
         /*
