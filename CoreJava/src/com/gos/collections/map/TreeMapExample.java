@@ -1,4 +1,4 @@
-package com.gos.collections;
+package com.gos.collections.map;
 
 import java.util.Iterator;
 import java.util.Map;

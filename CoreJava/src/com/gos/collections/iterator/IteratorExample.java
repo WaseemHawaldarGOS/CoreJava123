@@ -1,4 +1,4 @@
-package com.gos.collections;
+package com.gos.collections.iterator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

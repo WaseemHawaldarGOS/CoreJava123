@@ -1,4 +1,4 @@
-package com.gos.collections;
+package com.gos.collections.list;
 
 import java.util.LinkedList;
 

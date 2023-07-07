@@ -1,6 +1,5 @@
-package com.gos.collections;
+package com.gos.collections.set;
 
-import java.util.Iterator;
 import java.util.TreeSet;
 
 public class TestTreeSetComparator {
