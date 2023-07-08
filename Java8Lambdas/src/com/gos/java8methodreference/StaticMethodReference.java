@@ -18,6 +18,9 @@ public class StaticMethodReference {
     Read about BiFunction here
     https://docs.oracle.com/javase/8/docs/api/java/util/function/BiFunction.html
 
+    Represents a function that accepts two arguments and produces a result.
+    This is a functional interface whose functional method is apply(Object, Object).
+
     Interface BiFunction<T,U,R>
     Type Parameters:
     T - the type of the first argument to the function

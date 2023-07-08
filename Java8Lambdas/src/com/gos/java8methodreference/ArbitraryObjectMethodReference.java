@@ -34,7 +34,11 @@ public class ArbitraryObjectMethodReference {
         /* Method reference to an instance method of an arbitrary
          * object of a particular type
          */
+
+        //Step1 : sort the array using method reference
         Arrays.sort(stringArray, String::compareToIgnoreCase);
+
+        //Step2: print the sorted array using streams and method reference
         Arrays.stream(stringArray).forEach(System.out::println);
     }
 
