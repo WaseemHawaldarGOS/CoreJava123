@@ -45,11 +45,21 @@ public class Student {
 
 
     public static List<Student> getStudents(){
-        List<Student> list = new ArrayList<>();
-        list.add(new Student(11, 28, "Lucy"));
-        list.add(new Student(28, 27, "Kiku"));
-        list.add(new Student(32, 30, "Dani"));
-        list.add(new Student(49, 27, "Steve"));
-        return list;
+        List<Student> studentlist = new ArrayList<>();
+        studentlist.add(new Student(11,22,"Jon"));
+        studentlist.add(new Student(22,18,"Steve"));
+        studentlist.add(new Student(33,22,"Lucy"));
+        studentlist.add(new Student(44,23,"Sansa"));
+        studentlist.add(new Student(55,18,"Maggie"));
+        return studentlist;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "stuId=" + stuId +
+                ", stuAge=" + stuAge +
+                ", stuName='" + stuName + '\'' +
+                '}';
     }
 }
