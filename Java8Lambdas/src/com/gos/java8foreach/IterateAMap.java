@@ -18,7 +18,7 @@ public class IterateAMap {
         /* forEach to iterate and display each key and value pair
          * of HashMap.
          */
-        hmap.forEach((key,value)->System.out.println(key+" - "+value));
+        hmap.forEach((key,value)->System.out.println(key+" - "+value));//pls note we are not converting to stream here
         /* forEach to iterate a Map and display the value of a particular
          * key
          */

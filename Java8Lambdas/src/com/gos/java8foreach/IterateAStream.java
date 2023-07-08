@@ -17,6 +17,6 @@ public class IterateAStream {
         names.add("Governor");
         names.stream() //creating stream
                 .filter(f->f.startsWith("M")) //filtering names that starts with M
-                .forEach(System.out::println); //displaying the stream using forEach
+                .forEach(System.out::println); //displaying the stream using forEach and Method Reference
     }
 }
