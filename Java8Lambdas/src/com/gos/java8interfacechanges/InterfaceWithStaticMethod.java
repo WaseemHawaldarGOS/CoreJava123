@@ -12,7 +12,7 @@ public interface InterfaceWithStaticMethod {
      * in implementation classes so we can safely add them to the
      * existing interfaces.
      */
-    static void anotherNewMethod(){
+    static void staticMethodOfInterface(){
         System.out.println("Newly added static method");
     }
     /* Already existing public and abstract method

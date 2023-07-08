@@ -13,7 +13,7 @@ public class ImplementInterfaceWithStaticMethod implements InterfaceWithStaticMe
         InterfaceWithStaticMethod obj = new ImplementInterfaceWithStaticMethod();
 
         //calling the static method of interface
-        InterfaceWithStaticMethod.anotherNewMethod();
+        InterfaceWithStaticMethod.staticMethodOfInterface();
         //calling the abstract method of interface
         obj.existingMethod("Java 8 is easy to learn");
 

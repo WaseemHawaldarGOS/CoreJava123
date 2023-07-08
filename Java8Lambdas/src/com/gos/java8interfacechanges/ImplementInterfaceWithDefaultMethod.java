@@ -34,7 +34,7 @@ public class ImplementInterfaceWithDefaultMethod implements InterfaceWithDefault
         InterfaceWithDefaultMethod obj = new ImplementInterfaceWithDefaultMethod();
 
         //calling the default method of interface
-        obj.newMethod();
+        obj.defaultMethodOfInterface();
         //calling the abstract method of interface
         obj.existingMethod("Java 8 is easy to learn");
 
