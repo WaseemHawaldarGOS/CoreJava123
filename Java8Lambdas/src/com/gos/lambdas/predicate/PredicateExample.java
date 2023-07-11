@@ -47,9 +47,7 @@ public class PredicateExample {
 		Predicate<Integer> predicateOrOperation = positive.or(negative);
 		Predicate<Integer> predicateNotOperation = positive.negate();
 
-		List<Integer> integerList = Arrays.asList(new Integer(-20), new Integer(-10),
-				new Integer(0), new Integer(10),
-				new Integer(20));
+		List<Integer> integerList = Arrays.asList(-20, -10, 0, 10, 20);
 
 		/*
 		Calling with positive predicate

@@ -47,8 +47,8 @@ public class ConsumerExample {
 		 * Primary accept method invocation
 		 */
 		Consumer<Integer> consumer = (i) -> System.out.print(" " + i);
-		List<Integer> integerList = Arrays.asList(new Integer(1), new Integer(10), new Integer(200), new Integer(101),
-				new Integer(-10), new Integer(0));
+		List<Integer> integerList = Arrays.asList(1, 10, 200, 101,
+				-10, 0);
 		System.out.println("Invoking from Primary accept method invocation ");
 		printList(integerList, consumer);
 		
@@ -57,8 +57,8 @@ public class ConsumerExample {
 		 * usage of andThenMethod
 		 */
 		Consumer<Integer> consumer2 = (i) -> System.out.print(" " + i);
-		List<Integer> integerList2 = Arrays.asList(new Integer(1), new Integer(10), new Integer(200), new Integer(101),
-				new Integer(-10), new Integer(0));
+		List<Integer> integerList2 = Arrays.asList(1, 10, 200, 101,
+				-10, 0);
 		Consumer<Integer> consumer3 = consumer2.andThen(i -> System.out.println(" and then " + i));
 		System.out.println("\n\nInvoking from usage of andThenMethod ");
 		printList(integerList2, consumer3);
