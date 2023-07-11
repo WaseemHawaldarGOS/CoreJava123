@@ -18,8 +18,8 @@ public class OrElseGet {
         System.out.println(nothing.orElse("Default Value"));
 
         //orElseGet() method
-        System.out.println(GOT.orElseGet(() -> "Default Value"));
-        System.out.println(nothing.orElseGet(() -> "Default Value"));
+        System.out.println(GOT.orElseGet(() -> "Modified Default Value"));
+        System.out.println(nothing.orElseGet(() -> "Modified Default Value"));
 
     }
 

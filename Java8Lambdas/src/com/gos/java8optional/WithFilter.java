@@ -14,8 +14,8 @@ public class WithFilter {
          * contain any value, else it returns the Optional object of the
          * given value.
          */
-        System.out.println(GOT.filter(s -> s.equals("GAME OF THRONES")));
-        System.out.println(GOT.filter(s -> s.equalsIgnoreCase("GAME OF THRONES")));
+        System.out.println(GOT.filter(s -> s.equals("GAME OF THRONES")));//optional.filter is returning optional object
+        System.out.println(GOT.filter(s -> s.equalsIgnoreCase("GAME OF THRONES")));//optional.filter is returning optional object
     }
 
 
