@@ -18,6 +18,6 @@ public class FileCommiter {
     }
 
     public void saveFile(File file){
-        //Logic for saving the file at the diskLocation goes here
+        System.out.println("File saved to disk using FileCommiter at location "+diskLocation);
     }
 }

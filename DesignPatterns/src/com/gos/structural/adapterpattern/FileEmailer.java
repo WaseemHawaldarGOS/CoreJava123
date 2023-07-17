@@ -14,6 +14,6 @@ public class FileEmailer {
     }
 
     public void emailFile(File file){
-        //Logic for emailing the file goes here
+        System.out.println("File emailed using FileEmailer to "+emailAddress);
     }
 }
