@@ -22,6 +22,7 @@ public class LinkedHashSetExample {
         hs.add("D");
         hs.add("E");
         hs.add("C");
+        hs.add(1);
 
         status = hs.add("F");
         if (status == false) {

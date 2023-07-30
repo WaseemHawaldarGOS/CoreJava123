@@ -4,7 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /*
-Hashset does not maintain insertion order instead maintains its own default sorted order.
+Hashset does not maintain insertion order instead maintains its own default sorted order (cannot be predicted).
+Watch the output of this program carefully.
  */
 public class HashSetExample {
 

@@ -14,6 +14,7 @@ public class TestTreeSetComparator {
         ts.add("AD");
         ts.add("CB");
         ts.add("DD");
+        ts.add(1);
 
         for(Object element : ts){
             System.out.print(element + " ");
